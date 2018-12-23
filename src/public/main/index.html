@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html xmlns="//www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+<head>
+  <title>
+    A Pragmatic Introduction to Secure Multi-Party Computation // Pragmatic MPC
+  </title>
+
+  <link href="//gmpg.org/xfn/11" rel="profile">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<meta name="generator" content="Hugo 0.17" />
+
+
+  <meta property="og:title" content="A Pragmatic Introduction to Secure Multi-Party Computation" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:url" content="https://securecomputation.org/main/" />
+
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.5.0/base-min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.5.0/pure-min.css">
+  
+  
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.5.0/grids-responsive-min.css">
+  
+  
+
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  
+  
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href=>
+  <link rel="shortcut icon" href=>
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Pragmatic MPC" />
+
+    
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/tomorrow-night-bright.min.css">
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+
+  <link rel="stylesheet" href="https://securecomputation.org/css/srg.css">
+
+  
+
+  
+
+  
+</head>
+
+<body>
+	
+
+	<div id="layout" class="pure-g">
+    <div class="sidebar pure-u-1 pure-u-md-1-4">
+  <div class="header">
+
+  <h2 class="brand-group">
+     
+  </h2>
+
+  
+  
+     <a href="https://securecomputation.org"><h1 class="brand-title">Pragmatic MPC</h1></a>
+  
+  
+  
+
+  </div>
+</div>
+
+	
+	
+
+    <div class="content pure-u-1 pure-u-md-3-4">
+		<a name="top"></a>
+		
+
+		
+			
+		    <div id="toc" class="pure-u-1 pure-u-md-1-4">
+				<small class="toc-label">Contents</small>
+		   	 	<nav id="TableOfContents">
+<ul>
+<li><a href="#a-pragmatic-introduction-to-br-secure-multi-party-computation">A Pragmatic Introduction to<br> Secure Multi-Party Computation</a>
+<ul>
+<li>
+<ul>
+<li><a href="#david-evans-www-cs-virginia-edu-evans-vladimir-kolesnikov-https-www-scs-gatech-edu-people-vladimir-kolesnikov-and-mike-rosulek-http-web-engr-oregonstate-edu-rosulekm"><a href="//www.cs.virginia.edu/evans">David Evans</a>, <a href="https://www.scs.gatech.edu/people/vladimir-kolesnikov">Vladimir Kolesnikov</a> and <a href="http://web.engr.oregonstate.edu/~rosulekm/">Mike Rosulek</a></a></li>
+</ul></li>
+<li><a href="#contents">Contents</a></li>
+</ul></li>
+</ul>
+</nav>
+		    </div>
+		    
+	    
+  		<section class="post">
+            <h1 class="post-title">
+              <a href="/main/">A Pragmatic Introduction to Secure Multi-Party Computation</a>
+            </h1>
+            <h3 class="post-subtitle">
+            	
+            </h3>
+            
+            	<span class="post-date">
+                	<span class="post-date-day"><sup>1</sup></span><span class="post-date-separator">/</span><span class="post-date-month">Jan</span> <span class="post-date-year">0001</span>
+            	</span>
+            	
+            
+            	
+            
+
+			
+			
+
+			
+
+			
+
+            
+
+<h1 id="a-pragmatic-introduction-to-br-secure-multi-party-computation">A Pragmatic Introduction to<br> Secure Multi-Party Computation</h1>
+
+<h3 id="david-evans-www-cs-virginia-edu-evans-vladimir-kolesnikov-https-www-scs-gatech-edu-people-vladimir-kolesnikov-and-mike-rosulek-http-web-engr-oregonstate-edu-rosulekm"><a href="//www.cs.virginia.edu/evans">David Evans</a>, <a href="https://www.scs.gatech.edu/people/vladimir-kolesnikov">Vladimir Kolesnikov</a> and <a href="http://web.engr.oregonstate.edu/~rosulekm/">Mike Rosulek</a></h3>
+
+<p>Secure multi-party computation (MPC) has evolved from a theoretical
+curiosity in the 1980s to a tool for building real systems today. Over
+the past decade, MPC has been one of the most active research areas in
+both theoretical and applied cryptography. This book introduces
+several important MPC protocols, and surveys methods for improving the
+efficiency of privacy-preserving applications built using MPC. Besides
+giving a broad overview of the field and the insights of the main
+constructions, we overview the most currently active areas of MPC
+research and aim to give readers insights into what problems are
+practically solvable using MPC today and how different threat models
+and assumptions impact the practicality of different approaches.</p>
+
+<p><strong>Full Text:</strong> [<a href="/docs/pragmaticmpc.pdf">PDF</a>]</p>
+
+<p>NOW Publishers, December 2018</p>
+
+<h2 id="contents">Contents</h2>
+
+<div class="toc_chap">1 Introduction <span class="pdf">[<a href="/docs/ch1-introduction.pdf">PDF</a>]</span></div>
+<div class="toc_sec">1.1 Outsourced Computation</div>
+<div class="toc_sec">1.2 Multi-Party Computation</div> 
+<div class="toc_sec">1.3 MPC Applications</div>
+<div class="toc_sec">1.4 Overview</div>
+
+<div class="toc_chap">2 Defining Multi-Party Computation <span class="pdf">[<a href="/docs/ch2-definingmpc.pdf">PDF</a>]</span></div>
+<div class="toc_sec">2.1 Notations and Conventions </div>
+<div class="toc_sec">2.2 Basic Primitives </div>
+<div class="toc_sec">2.3 Security of Multi-Party Computation </div>
+<div class="toc_sec">2.4 Specific Functionalities of Interest </div>
+<div class="toc_sec">2.5 Further Reading </div>
+
+<div class="toc_chap">3 Fundamental MPC Protocols <span class="pdf">[<a href="/docs/ch3-fundamentalprotocols.pdf">PDF</a>]</span></div>
+<div class="toc_sec">3.1 Yao's Garbled Circuits Protocol</div>
+<div class="toc_sec">3.2 Goldreich-Micali-Wigderson (GMW) Protocol</div>
+<div class="toc_sec">3.3 BGW protocol</div>
+<div class="toc_sec">3.4 MPC From Preprocessed Multiplication Triples</div>
+<div class="toc_sec">3.5 Constant-Round Multi-Party Computation: BMR</div>
+<div class="toc_sec">3.6 Information-Theoretic Garbled Circuits</div>
+<div class="toc_sec">3.7 Oblivious Transfer</div>
+<div class="toc_sec">3.8 Custom Protocols</div>
+<div class="toc_sec">3.9 Further Reading</div>
+
+<div class="toc_chap">4 Implementation Techniques <span class="pdf">[<a href="/docs/ch4-implementationtechniques.pdf">PDF</a>]</span></div>
+<div class="toc_sec">4.1 Less Expensive Garbling</div>
+<div class="toc_sec">4.2 Optimizing Circuits</div>
+<div class="toc_sec">4.3 Protocol Execution</div>
+<div class="toc_sec">4.4 Programming Tools</div>
+<div class="toc_sec">4.5 Further Reading</div>
+
+<div class="toc_chap">5 Oblivious Data Structures <span class="pdf">[<a href="/docs/ch5-obliviousdata.pdf">PDF</a>]</span></div>
+<div class="toc_sec">5.1 Tailored Oblivious Data Structures</div>
+<div class="toc_sec">5.2 RAM-Based MPC</div>
+<div class="toc_sec">5.3 Tree-Based RAM-MPC</div>
+<div class="toc_sec">5.4 Square-Root RAM-MPC</div>
+<div class="toc_sec">5.5 Floram</div>
+<div class="toc_sec">5.6 Further Reading</div>
+
+<div class="toc_chap">6 Malicious Security <span class="pdf">[<a href="/docs/ch6-malicioussecurity.pdf">PDF</a>]</span></div>
+<div class="toc_sec">6.1 Cut-and-Choose</div>
+<div class="toc_sec">6.2 Input Recovery Technique</div>
+<div class="toc_sec">6.3 Batched Cut-and-Choose</div>
+<div class="toc_sec">6.4 Gate-level Cut-and-Choose: LEGO</div>
+<div class="toc_sec">6.5 Zero-Knowledge Proofs</div>
+<div class="toc_sec">6.6 Authenticated Secret Sharing: BDOZ and SPDZ</div>
+<div class="toc_sec">6.7 Authenticated Garbling</div>
+<div class="toc_sec">6.8 Further Reading</div>
+
+<div class="toc_chap">7 Alternative Threat Models <span class="pdf">[<a href="/docs/ch7-alternativethreatmodels.pdf">PDF</a>]</span></div>
+<div class="toc_sec">7.1 Honest Majority</div>
+<div class="toc_sec">7.2 Asymmetric Trust</div>
+<div class="toc_sec">7.3 Covert Security</div>
+<div class="toc_sec">7.4 Publicly Verifiable Covert (PVC) Security</div>
+<div class="toc_sec">7.5 Reducing Communication in Cut-and-Choose Protocols</div>
+<div class="toc_sec">7.6 Trading Off Leakage for Efficiency</div>
+<div class="toc_sec">7.7 Further Reading</div>
+
+<div class="toc_chap">8 Conclusion <span class="pdf">[<a href="/docs/ch8-conclusion.pdf">PDF</a>]</span></div>
+
+<div class="toc_chap">References <span class="pdf">[<a href="/docs/references.pdf">PDF</a>]</span></div>
+
+	
+			
+
+			
+
+			
+				<div class="paging">
+					<span class="paging-label">More Reading</span>
+					
+					<div class="paging-newer">
+						<span class="dark-red">Newer</span><span class="decorative-marker">//</span>
+						<a class="paging-link" href="/welcome/">Welcome</a>
+		            </div>
+		            
+
+					
+	            </div>
+            
+          </section>
+          
+          	
+          
+        
+      <div class="footer">
+	<hr class="thin" />
+
+   <div class="funding">
+<a href="/securecomputation.html">Original Secure Computation site</a>
+
+   </div>
+
+	<p></p>
+</div>
+
+    </div>
+  </div>
+	
+
+	
+
+  
+</body>
+</html>

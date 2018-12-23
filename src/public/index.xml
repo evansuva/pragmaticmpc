@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pragmatic MPC</title>
+    <link>https://securecomputation.org/index.xml</link>
+    <description>Recent content on Pragmatic MPC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>evans@virginia.edu (David Evans, Vladimir Kolesnikov and Mike Rosulek)</managingEditor>
+    <webMaster>evans@virginia.edu (David Evans, Vladimir Kolesnikov and Mike Rosulek)</webMaster>
+    <lastBuildDate>Tue, 10 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://securecomputation.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Welcome</title>
+      <link>https://securecomputation.org/welcome/</link>
+      <pubDate>Tue, 10 Apr 2018 00:00:00 +0000</pubDate>
+      <author>evans@virginia.edu (David Evans, Vladimir Kolesnikov and Mike Rosulek)</author>
+      <guid>https://securecomputation.org/welcome/</guid>
+      <description>&lt;p&gt;Welcome to the website for the Pavilion Seminar, &amp;ldquo;How will Artificial
+Intelligence change Humanity?&amp;ldquo;.  The seminar will be offered in Fall
+2018, led by &lt;a href=&#34;https://www.cs.virginia.edu/evans&#34;&gt;David
+Evans&lt;/a&gt;.  Enrollment is by permission only, and strictly limited to
+15 students (according to the Pavilion seminar rules).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Pragmatic Introduction to Secure Multi-Party Computation</title>
+      <link>https://securecomputation.org/main/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>evans@virginia.edu (David Evans, Vladimir Kolesnikov and Mike Rosulek)</author>
+      <guid>https://securecomputation.org/main/</guid>
+      <description>
+
+&lt;h1 id=&#34;a-pragmatic-introduction-to-br-secure-multi-party-computation&#34;&gt;A Pragmatic Introduction to&lt;br&gt; Secure Multi-Party Computation&lt;/h1&gt;
+
+&lt;h3 id=&#34;david-evans-www-cs-virginia-edu-evans-vladimir-kolesnikov-https-www-scs-gatech-edu-people-vladimir-kolesnikov-and-mike-rosulek-http-web-engr-oregonstate-edu-rosulekm&#34;&gt;&lt;a href=&#34;//www.cs.virginia.edu/evans&#34;&gt;David Evans&lt;/a&gt;, &lt;a href=&#34;https://www.scs.gatech.edu/people/vladimir-kolesnikov&#34;&gt;Vladimir Kolesnikov&lt;/a&gt; and &lt;a href=&#34;http://web.engr.oregonstate.edu/~rosulekm/&#34;&gt;Mike Rosulek&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Secure multi-party computation (MPC) has evolved from a theoretical
+curiosity in the 1980s to a tool for building real systems today. Over
+the past decade, MPC has been one of the most active research areas in
+both theoretical and applied cryptography. This book introduces
+several important MPC protocols, and surveys methods for improving the
+efficiency of privacy-preserving applications built using MPC. Besides
+giving a broad overview of the field and the insights of the main
+constructions, we overview the most currently active areas of MPC
+research and aim to give readers insights into what problems are
+practically solvable using MPC today and how different threat models
+and assumptions impact the practicality of different approaches.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Full Text:&lt;/strong&gt; [&lt;a href=&#34;https://securecomputation.org/docs/pragmaticmpc.pdf&#34;&gt;PDF&lt;/a&gt;]&lt;/p&gt;
+
+&lt;p&gt;NOW Publishers, December 2018&lt;/p&gt;
+
+&lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
+
+&lt;div class=&#34;toc_chap&#34;&gt;1 Introduction &lt;span class=&#34;pdf&#34;&gt;[&lt;a href=&#34;https://securecomputation.org/docs/ch1-introduction.pdf&#34;&gt;PDF&lt;/a&gt;]&lt;/span&gt;&lt;/div&gt;
+&lt;div class=&#34;toc_sec&#34;&gt;1.1 Outsourced Computation&lt;/div&gt;
+&lt;div class=&#34;toc_sec&#34;&gt;1.2 Multi-Party Computation&lt;/div&gt; 
+&lt;div class=&#34;toc_sec&#34;&gt;1.3 MPC Applications&lt;/div&gt;
+&lt;div class=&#34;toc_sec&#34;&gt;1.4 Overview&lt;/div&gt;
+
+&lt;div class=&#34;toc_chap&#34;&gt;2 Defining Multi-Party Computation &lt;span class=&#34;pdf&#34;&gt;[&lt;a href=&#34;https://securecomputation.org/docs/ch2-definingmpc.pdf&#34;&gt;PDF&lt;/a&gt;]&lt;/span&gt;&lt;/div&gt;
+&lt;div class=&#34;toc_sec&#34;&gt;2.1 Notations and Conventions &lt;/div&gt;
+&lt;div class=&#34;toc_sec&#34;&gt;2.2 Basic Primitives &lt;/div&gt;
+&lt;div class=&#34;toc_sec&#34;&gt;2.3 Security of Multi-Party Computation &lt;/div&gt;
+&lt;div class=&#34;toc_sec&#34;&gt;2.4 Specific Functionalities of Interest &lt;/div&gt;
+&lt;div class=&#34;toc_sec&#34;&gt;2.5 Further Reading &lt;/div&gt;
+
+&lt;div class=&#34;toc_chap&#34;&gt;3 Fundamental MPC Protocols &lt;span class=&#34;pdf&#34;&gt;[&lt;a href=&#34;https://securecomputation.org/docs/ch3-fundamentalprotocols.pdf&#34;&gt;PDF&lt;/a&gt;]&lt;/span&gt;&lt;/div&gt;
+&lt;div class=&#34;toc_sec&#34;&gt;3.1 Yao&#39;s Garbled Circuits Protocol&lt;/div&gt;
+&lt;div class=&#34;toc_sec&#34;&gt;3.2 Goldreich-Micali-Wigderson (GMW) Protocol&lt;/div&gt;
+&lt;div class=&#34;toc_sec&#34;&gt;3.3 BGW protocol&lt;/div&gt;
+&lt;div class=&#34;toc_sec&#34;&gt;3.4 MPC From Preprocessed Multiplication Triples&lt;/div&gt;
+&lt;div class=&#34;toc_sec&#34;&gt;3.5 Constant-Round Multi-Party Computation: BMR&lt;/div&gt;
+&lt;div class=&#34;toc_sec&#34;&gt;3.6 Information-Theoretic Garbled Circuits&lt;/div&gt;
+&lt;div class=&#34;toc_sec&#34;&gt;3.7 Oblivious Transfer&lt;/div&gt;
+&lt;div class=&#34;toc_sec&#34;&gt;3.8 Custom Protocols&lt;/div&gt;
+&lt;div class=&#34;toc_sec&#34;&gt;3.9 Further Reading&lt;/div&gt;
+
+&lt;div class=&#34;toc_chap&#34;&gt;4 Implementation Techniques &lt;span class=&#34;pdf&#34;&gt;[&lt;a href=&#34;https://securecomputation.org/docs/ch4-implementationtechniques.pdf&#34;&gt;PDF&lt;/a&gt;]&lt;/span&gt;&lt;/div&gt;
+&lt;div class=&#34;toc_sec&#34;&gt;4.1 Less Expensive Garbling&lt;/div&gt;
+&lt;div class=&#34;toc_sec&#34;&gt;4.2 Optimizing Circuits&lt;/div&gt;
+&lt;div class=&#34;toc_sec&#34;&gt;4.3 Protocol Execution&lt;/div&gt;
+&lt;div class=&#34;toc_sec&#34;&gt;4.4 Programming Tools&lt;/div&gt;
+&lt;div class=&#34;toc_sec&#34;&gt;4.5 Further Reading&lt;/div&gt;
+
+&lt;div class=&#34;toc_chap&#34;&gt;5 Oblivious Data Structures &lt;span class=&#34;pdf&#34;&gt;[&lt;a href=&#34;https://securecomputation.org/docs/ch5-obliviousdata.pdf&#34;&gt;PDF&lt;/a&gt;]&lt;/span&gt;&lt;/div&gt;
+&lt;div class=&#34;toc_sec&#34;&gt;5.1 Tailored Oblivious Data Structures&lt;/div&gt;
+&lt;div class=&#34;toc_sec&#34;&gt;5.2 RAM-Based MPC&lt;/div&gt;
+&lt;div class=&#34;toc_sec&#34;&gt;5.3 Tree-Based RAM-MPC&lt;/div&gt;
+&lt;div class=&#34;toc_sec&#34;&gt;5.4 Square-Root RAM-MPC&lt;/div&gt;
+&lt;div class=&#34;toc_sec&#34;&gt;5.5 Floram&lt;/div&gt;
+&lt;div class=&#34;toc_sec&#34;&gt;5.6 Further Reading&lt;/div&gt;
+
+&lt;div class=&#34;toc_chap&#34;&gt;6 Malicious Security &lt;span class=&#34;pdf&#34;&gt;[&lt;a href=&#34;https://securecomputation.org/docs/ch6-malicioussecurity.pdf&#34;&gt;PDF&lt;/a&gt;]&lt;/span&gt;&lt;/div&gt;
+&lt;div class=&#34;toc_sec&#34;&gt;6.1 Cut-and-Choose&lt;/div&gt;
+&lt;div class=&#34;toc_sec&#34;&gt;6.2 Input Recovery Technique&lt;/div&gt;
+&lt;div class=&#34;toc_sec&#34;&gt;6.3 Batched Cut-and-Choose&lt;/div&gt;
+&lt;div class=&#34;toc_sec&#34;&gt;6.4 Gate-level Cut-and-Choose: LEGO&lt;/div&gt;
+&lt;div class=&#34;toc_sec&#34;&gt;6.5 Zero-Knowledge Proofs&lt;/div&gt;
+&lt;div class=&#34;toc_sec&#34;&gt;6.6 Authenticated Secret Sharing: BDOZ and SPDZ&lt;/div&gt;
+&lt;div class=&#34;toc_sec&#34;&gt;6.7 Authenticated Garbling&lt;/div&gt;
+&lt;div class=&#34;toc_sec&#34;&gt;6.8 Further Reading&lt;/div&gt;
+
+&lt;div class=&#34;toc_chap&#34;&gt;7 Alternative Threat Models &lt;span class=&#34;pdf&#34;&gt;[&lt;a href=&#34;https://securecomputation.org/docs/ch7-alternativethreatmodels.pdf&#34;&gt;PDF&lt;/a&gt;]&lt;/span&gt;&lt;/div&gt;
+&lt;div class=&#34;toc_sec&#34;&gt;7.1 Honest Majority&lt;/div&gt;
+&lt;div class=&#34;toc_sec&#34;&gt;7.2 Asymmetric Trust&lt;/div&gt;
+&lt;div class=&#34;toc_sec&#34;&gt;7.3 Covert Security&lt;/div&gt;
+&lt;div class=&#34;toc_sec&#34;&gt;7.4 Publicly Verifiable Covert (PVC) Security&lt;/div&gt;
+&lt;div class=&#34;toc_sec&#34;&gt;7.5 Reducing Communication in Cut-and-Choose Protocols&lt;/div&gt;
+&lt;div class=&#34;toc_sec&#34;&gt;7.6 Trading Off Leakage for Efficiency&lt;/div&gt;
+&lt;div class=&#34;toc_sec&#34;&gt;7.7 Further Reading&lt;/div&gt;
+
+&lt;div class=&#34;toc_chap&#34;&gt;8 Conclusion &lt;span class=&#34;pdf&#34;&gt;[&lt;a href=&#34;https://securecomputation.org/docs/ch8-conclusion.pdf&#34;&gt;PDF&lt;/a&gt;]&lt;/span&gt;&lt;/div&gt;
+
+&lt;div class=&#34;toc_chap&#34;&gt;References &lt;span class=&#34;pdf&#34;&gt;[&lt;a href=&#34;https://securecomputation.org/docs/references.pdf&#34;&gt;PDF&lt;/a&gt;]&lt;/span&gt;&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

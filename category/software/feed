@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Secure Computation &#187; Software</title>
+	<atom:link href="http://www.securecomputation.org/category/software/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.securecomputation.org</link>
+	<description>Practical Secure Two-Party Computation: Techniques, Tools, and Applications</description>
+	<lastBuildDate>Wed, 06 Jul 2016 15:00:12 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.2.1</generator>
+		<item>
+		<title>The Cut-and-Choose Game and its Application to Cryptographic Protocols</title>
+		<link>http://www.securecomputation.org/2016/the-cut-and-choose-game-and-its-application-to-cryptographic-protocols</link>
+		<comments>http://www.securecomputation.org/2016/the-cut-and-choose-game-and-its-application-to-cryptographic-protocols#comments</comments>
+		<pubDate>Wed, 06 Jul 2016 14:50:53 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Papers]]></category>
+		<category><![CDATA[Software]]></category>
+
+		<guid isPermaLink="false">http://www.securecomputation.org/?p=165</guid>
+		<description><![CDATA[Cut-and-choose protocols can be optimized by considering them as adversarial games.]]></description>
+			<content:encoded><![CDATA[<p>The cut-and-choose technique plays a fundamental role in cryptographic-protocol design, especially for secure<br />
+two-party computation in the malicious model. The basic idea is that one party constructs n versions of a message<br />
+in a protocol (e.g., garbled circuits); the other party randomly checks some of them and uses the rest of them in<br />
+the protocol. Most existing uses of cut-and-choose fix in advance the number of objects to be checked and in optimizing<br />
+this parameter they fail to recognize the fact that checking and evaluating may have dramatically different costs.</p>
+<p>In a paper to be presented at USENIX Security 2016, we consider a refined cost model and formalize the cut-and-choose parameter selection problem as a constrained optimization problem. We analyze “cut-and-choose games” and show equilibrium strategies<br />
+for the parties in these games. We then show how our methodology can be applied to improve the efficiency of three representative categories of secure-computation protocols based on cut-and-choose. We show improvements of up to an-order-of-magnitude in terms of bandwidth, and 12–106% in terms of total time. </p>
+<p>Paper: Ruiyu Zhu, Yan Huang, Jonathan Katz, and abhi shelat. <a href="http://homes.soic.indiana.edu/yh33/mypub/cut-and-choose.pdf"><em>The Cut-and-Choose Game and its Application to Cryptographic Protocols</em></a>. USENIX Security Symposium, 2016.</p>
+<p>Source code of our game solvers: <a href="https://github.com/cut-n-choose">https://github.com/cut-n-choose</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.securecomputation.org/2016/the-cut-and-choose-game-and-its-application-to-cryptographic-protocols/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Square-Root ORAM</title>
+		<link>http://www.securecomputation.org/2016/square-root-oram</link>
+		<comments>http://www.securecomputation.org/2016/square-root-oram#comments</comments>
+		<pubDate>Fri, 03 Jun 2016 18:23:16 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Papers]]></category>
+		<category><![CDATA[Software]]></category>
+
+		<guid isPermaLink="false">http://www.securecomputation.org/?p=153</guid>
+		<description><![CDATA[Square-Root ORAM provides more efficient access and initialization for SC-RAM applications across a wide range of parameters.]]></description>
+			<content:encoded><![CDATA[<p>Hiding memory access patterns is required for secure computation, but remains prohibitively expensive for many interesting applications. Prior work has either developed custom algorithms that minimize the need for data-dependant memory access, or proposed the use of Oblivious RAM (ORAM) to provide a general-purpose solution. However, most ORAMs are designed for client-server scenarios, and provide only asymptotic benefits in secure computation.  We developed a new version of the classical square-root ORAM of Goldreich and Ostrovsky suited for use in secure computation. It has over 100x lower initialization cost than the best previous schemes, and provides benefits over linear scan for just 8 blocks of data. Our scheme outperforms alternate approaches across a wide range of parameters, often by several orders of magnitude.</p>
+<p>Samee Zahur presented the results at IEEE Symposium on Security and Privacy (&#8220;Oakland&#8221;) 2016.  The full paper is:</p>
+<blockquote><p>
+Samee Zahur, Xiao Wang, Mariana Raykova, Adrià Gascón, Jack Doerner, David Evans, Jonathan Katz. <a href="https://oblivc.org/docs/sqoram.pdf"><em>Revisiting Square-Root ORAM Efficient Random Access in Multi-Party Computation</em></a>. In <a href="http://www.ieee-security.org/TC/SP2016/"><em>37th IEEE Symposium on Security and Privacy</em></a> (&#8220;Oakland&#8221;). San Jose, CA. 23-25 May 2016.
+</p></blockquote>
+<p>For more (including source code and benchmarks), see <a href="https://oblivc.org/sqoram/">https://oblivc.org/sqoram/</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.securecomputation.org/2016/square-root-oram/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Two Halves Make a Whole</title>
+		<link>http://www.securecomputation.org/2015/two-halves-make-a-whole</link>
+		<comments>http://www.securecomputation.org/2015/two-halves-make-a-whole#comments</comments>
+		<pubDate>Sat, 28 Mar 2015 17:55:09 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Meetings]]></category>
+		<category><![CDATA[Papers]]></category>
+		<category><![CDATA[Software]]></category>
+
+		<guid isPermaLink="false">http://www.securecomputation.org/?p=147</guid>
+		<description><![CDATA[Surprisingly, it is possible to reduce the data needed for a garbled gate to only two ciphertexts per gate, while preserving free xors. The scheme for doing that is described in our paper, Two Halves Make a Whole: Reducing Data Transfer in Garbled Circuits using Half Gates by Samee Zahur and Mike Rosulek and David [...]]]></description>
+			<content:encoded><![CDATA[<p>Surprisingly, it is possible to reduce the data needed for a garbled gate to only two ciphertexts per gate, while preserving free xors.  The scheme for doing that is described in our paper, <a href="http://eprint.iacr.org/2014/756"><em>Two Halves Make a Whole: Reducing Data Transfer in Garbled Circuits using Half Gates</em></a> by Samee Zahur and Mike Rosulek and David Evans (now <a href="http://eprint.iacr.org/2014/756">available on eprint</a>). Samee Zahur will present the work at <A href="https://www.cosic.esat.kuleuven.be/eurocrypt_2015/papers.shtml">Eurocrypt 2015</a> in Sofia, Bulgaria, 26-30 April. </p>
+<p><b>Abstract.</b> The well-known classical constructions of garbled circuits use four ciphertexts per gate, although various methods have been proposed to reduce this cost. The best previously known methods for optimizing AND gates (two ciphertexts; Pinkas et al., ASIACRYPT 2009) and XOR gates (zero ciphertexts; Kolesnikov &#038; Schneider, ICALP 2008) were incompatible, so most implementations used the best known method compatible with free-XOR gates (three ciphertexts; Kolesnikov &#038; Schneider, ICALP 2008). In this work we show how to simultaneously garble AND gates using two ciphertexts and XOR gates using zero ciphertexts, resulting in smaller garbled circuits than any prior scheme. The main idea behind our construction is to break an AND gate into two half-gates &mdash; AND gates for which one party knows one input. Each half-gate can be garbled with a single ciphertext, so our construction uses two ciphertexts for each AND gate while being compatible with free-XOR gates. The price for the reduction in size is that the evaluator must perform two cryptographic operations per AND gate, rather than one as in previous schemes. We experimentally demonstrate that our garbling scheme leads to an overall decrease in time (up to 25%), bandwidth (up to 33%), and energy use (up to 20%) over several benchmark applications. We also initiate a study of lower bounds for garbled gate size, and show that our construction is optimal for a large class of garbling schemes encompassing all known practical garbling techniques.</p>
+<p><center><br />
+<img src="http://www.jeffersonswheel.org/images/halfgatestable-small.png" width=700 height=279><br />
+</center></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.securecomputation.org/2015/two-halves-make-a-whole/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>iDash Competition Winner</title>
+		<link>http://www.securecomputation.org/2015/idash-competition-winner</link>
+		<comments>http://www.securecomputation.org/2015/idash-competition-winner#comments</comments>
+		<pubDate>Tue, 17 Mar 2015 17:51:02 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Awards]]></category>
+		<category><![CDATA[Meetings]]></category>
+		<category><![CDATA[Software]]></category>
+
+		<guid isPermaLink="false">http://www.securecomputation.org/?p=145</guid>
+		<description><![CDATA[Congratulations to Samee Zahur for winning the iDash Secure Genomics competition (Hamming Distance challenge task), sponsored by Human Longevity, Inc. A video of the event is available at http://www.humangenomeprivacy.org/. Samee&#8217;s solution was built using Obliv-C, a language for data-oblivious computation.]]></description>
+			<content:encoded><![CDATA[<p>Congratulations to Samee Zahur for winning the iDash Secure Genomics competition (Hamming Distance challenge task), sponsored by Human Longevity, Inc.  A video of the event is available at <a href="http://www.humangenomeprivacy.org/2015/AGENDA.html"><em>http://www.humangenomeprivacy.org/</em></a>.</p>
+<p>Samee&#8217;s solution was built using <a href="https://github.com/samee/obliv-c">Obliv-C</a>, a language for data-oblivious computation.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.securecomputation.org/2015/idash-competition-winner/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Circuit Structures</title>
+		<link>http://www.securecomputation.org/2013/circuit-structures</link>
+		<comments>http://www.securecomputation.org/2013/circuit-structures#comments</comments>
+		<pubDate>Tue, 05 Mar 2013 01:32:47 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Papers]]></category>
+		<category><![CDATA[Software]]></category>
+
+		<guid isPermaLink="false">http://www.securecomputation.org/?p=136</guid>
+		<description><![CDATA[Circuit Structures paper and software is now available.  Samee Zahur will present the paper at Oakland 2013.]]></description>
+			<content:encoded><![CDATA[<p>Samee Zahur and I have written a paper on <a href="http://www.cs.virginia.edu/~evans/pubs/oakland2013/"><em>Circuit Structures for Improving Efficiency of Security and Privacy Tools</em></a>.  The paper explores ways to design static circuits (as used in garbled circuit protocols and symbolic execution, among other things) to provide reasonable efficiency for algorithms that use common data structures like arrays. By taking advantage of somewhat predictable access patterns, as well as batching, our circuit structures are able to provide operations with amortized cost that is polylogarithmic in the size of the data structure (in contrast to naive approaches that would require effectively copying the entire data structure for each operation).  Samee will present the paper at the <a href="http://www.ieee-security.org/TC/SP2013/"><em>IEEE Symposium on Security and Privacy</em></a> (&#8220;Oakland&#8221;) in San Francisco in May.</p>
+<p align="center">
+<img src="http://www.cs.virginia.edu/evans/pubs/oakland2013/netlist.png" width=360 height=280 alt="">
+</p>
+<p><b>Full paper</b> (15 pages): [<a href="http://www.cs.virginia.edu/evans/pubs/oakland2013/circuit-structures.pdf">PDF</a>]<br /><br />
+<b>Project</b>: <a href="http://MightBeEvil.com/netlist"><em>MightBeEvil.com/netlist</em></a><Br><br />
+<b>Code</b>: <a href="http://github.com/samee/netlist">http://github.com/samee/netlist</em></a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.securecomputation.org/2013/circuit-structures/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>GC Framework Released</title>
+		<link>http://www.securecomputation.org/2011/garbled-circuits-framework</link>
+		<comments>http://www.securecomputation.org/2011/garbled-circuits-framework#comments</comments>
+		<pubDate>Thu, 25 Aug 2011 12:09:40 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Software]]></category>
+
+		<guid isPermaLink="false">http://www.securecomputation.org/?p=44</guid>
+		<description><![CDATA[Our <a href="http://www.mightbeevil.org/framework/">framework</a> enables programmers to build efficient and scalable privacy-preserving applications using garbled circuit techniques.]]></description>
+			<content:encoded><![CDATA[<p><img src="http://www.mightbeevil.org/framework/gclogo-small.png" align="right" hspace=6 vspace=6 border=0><br />
+Version 0.0.1 of our Java-based <a href="http://www.mightbeevil.org/framework/">framework</a> and library enable programmers to build efficient and scalable privacy-preserving applications using Yao&#8217;s garbled circuit techniques.  The framework is now available for <a href="http://www.mightbeevil.org/framework/download.html">download</a> and released under the MIT open source license.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.securecomputation.org/2011/garbled-circuits-framework/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+<!-- Quick Cache: failed to write cache. The cache/ directory is either non-existent ( and could not be created ) or it is not writable. -->

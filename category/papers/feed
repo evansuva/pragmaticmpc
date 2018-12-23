@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Secure Computation &#187; Papers</title>
+	<atom:link href="http://www.securecomputation.org/category/papers/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.securecomputation.org</link>
+	<description>Practical Secure Two-Party Computation: Techniques, Tools, and Applications</description>
+	<lastBuildDate>Wed, 06 Jul 2016 15:00:12 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.2.1</generator>
+		<item>
+		<title>Secure Computation in the MIPS Machine</title>
+		<link>http://www.securecomputation.org/2016/secure-computation-in-the-mips-machine</link>
+		<comments>http://www.securecomputation.org/2016/secure-computation-in-the-mips-machine#comments</comments>
+		<pubDate>Wed, 06 Jul 2016 14:57:27 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Papers]]></category>
+
+		<guid isPermaLink="false">http://www.securecomputation.org/?p=168</guid>
+		<description><![CDATA[The MIPS instruction set can be supports as a secure multi-party computation using ORAM and garbled circuits.]]></description>
+			<content:encoded><![CDATA[<p>Existing systems for secure computation require programmers to express the program to be securely computed as a circuit, or in some domain-specific language that can be compiled to a form suitable for applying known protocols. We propose a new system that can securely execute native MIPS code with no special annotations. Our system has the advantage of allowing programmers to use a language of their choice to express their programs, together with any off-the-shelf compiler to MIPS; it can be used for secure computation of existing “legacy” MIPS code as well. Our system uses oblivious RAM for fetching instructions and performing load/store operations in memory, and garbled universal circuits for the execution of a MIPS ALU in each instruction step. We also explore various optimizations based on an offline analysis of the MIPS code to be executed, in order to minimize the overhead of executing each instruction while still maintaining security.</p>
+<p>Paper: Xiao Shaun Wang and S. Dov Gordon and Allen McIntosh and Jonathan Katz, <a href="http://eprint.iacr.org/2015/547"><em>Secure Computation of MIPS Machine Code</em></a>. In <a href="http://www.ics.forth.gr/esorics2016/">21st European Symposium on Research in Computer Security</a> (ESORICS), 2016.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.securecomputation.org/2016/secure-computation-in-the-mips-machine/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>The Cut-and-Choose Game and its Application to Cryptographic Protocols</title>
+		<link>http://www.securecomputation.org/2016/the-cut-and-choose-game-and-its-application-to-cryptographic-protocols</link>
+		<comments>http://www.securecomputation.org/2016/the-cut-and-choose-game-and-its-application-to-cryptographic-protocols#comments</comments>
+		<pubDate>Wed, 06 Jul 2016 14:50:53 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Papers]]></category>
+		<category><![CDATA[Software]]></category>
+
+		<guid isPermaLink="false">http://www.securecomputation.org/?p=165</guid>
+		<description><![CDATA[Cut-and-choose protocols can be optimized by considering them as adversarial games.]]></description>
+			<content:encoded><![CDATA[<p>The cut-and-choose technique plays a fundamental role in cryptographic-protocol design, especially for secure<br />
+two-party computation in the malicious model. The basic idea is that one party constructs n versions of a message<br />
+in a protocol (e.g., garbled circuits); the other party randomly checks some of them and uses the rest of them in<br />
+the protocol. Most existing uses of cut-and-choose fix in advance the number of objects to be checked and in optimizing<br />
+this parameter they fail to recognize the fact that checking and evaluating may have dramatically different costs.</p>
+<p>In a paper to be presented at USENIX Security 2016, we consider a refined cost model and formalize the cut-and-choose parameter selection problem as a constrained optimization problem. We analyze “cut-and-choose games” and show equilibrium strategies<br />
+for the parties in these games. We then show how our methodology can be applied to improve the efficiency of three representative categories of secure-computation protocols based on cut-and-choose. We show improvements of up to an-order-of-magnitude in terms of bandwidth, and 12–106% in terms of total time. </p>
+<p>Paper: Ruiyu Zhu, Yan Huang, Jonathan Katz, and abhi shelat. <a href="http://homes.soic.indiana.edu/yh33/mypub/cut-and-choose.pdf"><em>The Cut-and-Choose Game and its Application to Cryptographic Protocols</em></a>. USENIX Security Symposium, 2016.</p>
+<p>Source code of our game solvers: <a href="https://github.com/cut-n-choose">https://github.com/cut-n-choose</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.securecomputation.org/2016/the-cut-and-choose-game-and-its-application-to-cryptographic-protocols/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Square-Root ORAM</title>
+		<link>http://www.securecomputation.org/2016/square-root-oram</link>
+		<comments>http://www.securecomputation.org/2016/square-root-oram#comments</comments>
+		<pubDate>Fri, 03 Jun 2016 18:23:16 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Papers]]></category>
+		<category><![CDATA[Software]]></category>
+
+		<guid isPermaLink="false">http://www.securecomputation.org/?p=153</guid>
+		<description><![CDATA[Square-Root ORAM provides more efficient access and initialization for SC-RAM applications across a wide range of parameters.]]></description>
+			<content:encoded><![CDATA[<p>Hiding memory access patterns is required for secure computation, but remains prohibitively expensive for many interesting applications. Prior work has either developed custom algorithms that minimize the need for data-dependant memory access, or proposed the use of Oblivious RAM (ORAM) to provide a general-purpose solution. However, most ORAMs are designed for client-server scenarios, and provide only asymptotic benefits in secure computation.  We developed a new version of the classical square-root ORAM of Goldreich and Ostrovsky suited for use in secure computation. It has over 100x lower initialization cost than the best previous schemes, and provides benefits over linear scan for just 8 blocks of data. Our scheme outperforms alternate approaches across a wide range of parameters, often by several orders of magnitude.</p>
+<p>Samee Zahur presented the results at IEEE Symposium on Security and Privacy (&#8220;Oakland&#8221;) 2016.  The full paper is:</p>
+<blockquote><p>
+Samee Zahur, Xiao Wang, Mariana Raykova, Adrià Gascón, Jack Doerner, David Evans, Jonathan Katz. <a href="https://oblivc.org/docs/sqoram.pdf"><em>Revisiting Square-Root ORAM Efficient Random Access in Multi-Party Computation</em></a>. In <a href="http://www.ieee-security.org/TC/SP2016/"><em>37th IEEE Symposium on Security and Privacy</em></a> (&#8220;Oakland&#8221;). San Jose, CA. 23-25 May 2016.
+</p></blockquote>
+<p>For more (including source code and benchmarks), see <a href="https://oblivc.org/sqoram/">https://oblivc.org/sqoram/</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.securecomputation.org/2016/square-root-oram/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Two Halves Make a Whole</title>
+		<link>http://www.securecomputation.org/2015/two-halves-make-a-whole</link>
+		<comments>http://www.securecomputation.org/2015/two-halves-make-a-whole#comments</comments>
+		<pubDate>Sat, 28 Mar 2015 17:55:09 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Meetings]]></category>
+		<category><![CDATA[Papers]]></category>
+		<category><![CDATA[Software]]></category>
+
+		<guid isPermaLink="false">http://www.securecomputation.org/?p=147</guid>
+		<description><![CDATA[Surprisingly, it is possible to reduce the data needed for a garbled gate to only two ciphertexts per gate, while preserving free xors. The scheme for doing that is described in our paper, Two Halves Make a Whole: Reducing Data Transfer in Garbled Circuits using Half Gates by Samee Zahur and Mike Rosulek and David [...]]]></description>
+			<content:encoded><![CDATA[<p>Surprisingly, it is possible to reduce the data needed for a garbled gate to only two ciphertexts per gate, while preserving free xors.  The scheme for doing that is described in our paper, <a href="http://eprint.iacr.org/2014/756"><em>Two Halves Make a Whole: Reducing Data Transfer in Garbled Circuits using Half Gates</em></a> by Samee Zahur and Mike Rosulek and David Evans (now <a href="http://eprint.iacr.org/2014/756">available on eprint</a>). Samee Zahur will present the work at <A href="https://www.cosic.esat.kuleuven.be/eurocrypt_2015/papers.shtml">Eurocrypt 2015</a> in Sofia, Bulgaria, 26-30 April. </p>
+<p><b>Abstract.</b> The well-known classical constructions of garbled circuits use four ciphertexts per gate, although various methods have been proposed to reduce this cost. The best previously known methods for optimizing AND gates (two ciphertexts; Pinkas et al., ASIACRYPT 2009) and XOR gates (zero ciphertexts; Kolesnikov &#038; Schneider, ICALP 2008) were incompatible, so most implementations used the best known method compatible with free-XOR gates (three ciphertexts; Kolesnikov &#038; Schneider, ICALP 2008). In this work we show how to simultaneously garble AND gates using two ciphertexts and XOR gates using zero ciphertexts, resulting in smaller garbled circuits than any prior scheme. The main idea behind our construction is to break an AND gate into two half-gates &mdash; AND gates for which one party knows one input. Each half-gate can be garbled with a single ciphertext, so our construction uses two ciphertexts for each AND gate while being compatible with free-XOR gates. The price for the reduction in size is that the evaluator must perform two cryptographic operations per AND gate, rather than one as in previous schemes. We experimentally demonstrate that our garbling scheme leads to an overall decrease in time (up to 25%), bandwidth (up to 33%), and energy use (up to 20%) over several benchmark applications. We also initiate a study of lower bounds for garbled gate size, and show that our construction is optimal for a large class of garbling schemes encompassing all known practical garbling techniques.</p>
+<p><center><br />
+<img src="http://www.jeffersonswheel.org/images/halfgatestable-small.png" width=700 height=279><br />
+</center></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.securecomputation.org/2015/two-halves-make-a-whole/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Symmetric Cut-and-Choose</title>
+		<link>http://www.securecomputation.org/2013/symmetric-cut-and-choose</link>
+		<comments>http://www.securecomputation.org/2013/symmetric-cut-and-choose#comments</comments>
+		<pubDate>Fri, 14 Jun 2013 15:05:39 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Papers]]></category>
+
+		<guid isPermaLink="false">http://www.securecomputation.org/?p=140</guid>
+		<description><![CDATA[Our paper on <a href="http://www.cs.virginia.edu/evans/pubs/crypto2013/"><em>symmetric cut-and-choose</em></a> will be presented at <a href="http://www.iacr.org/conferences/crypto2013/">CRYPTO 2013</a> in August.]]></description>
+			<content:encoded><![CDATA[<p>
+Our paper on <em>symmetric cut-and-choose</em> is <a href="http://www.cs.virginia.edu/evans/pubs/crypto2013/">now available</a>.  The paper will be presented at <a href="http://www.iacr.org/conferences/crypto2013/">CRYPTO 2013</a> in August.
+</p>
+<p>
+<b>Abstract.</b> Beginning with the work of Lindell and Pinkas, researchers have proposed several protocols for secure two-party computation based on the <em>cut-and-choose</em> paradigm. In existing instantiations of this paradigm, one party generates <em>k</em> garbled circuits; some fraction of those are &#8220;checked&#8221; by the other party, and the remaining fraction are evaluated. We introduce here the idea of <em>symmetric</em> cut-and-choose protocols, in which both parties generate <em>k</em> circuits to be checked by the other party. The main advantage of our technique is that <em>k</em> can be reduced by a factor of 3 while attaining the same statistical security level as in prior work.  Since the number of garbled circuits dominates the costs of the protocol, especially as larger circuits are evaluated, our protocol is expected to run up to 3 times faster than existing schemes. Preliminary experiments validate this claim.
+</p>
+<p>
+<b>Full paper</b> (16 pages): [<a href="http://www.cs.virginia.edu/evans/pubs/crypto2013/symmetric-cut-and-choose.pdf">PDF</a>]<br /></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.securecomputation.org/2013/symmetric-cut-and-choose/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Circuit Structures</title>
+		<link>http://www.securecomputation.org/2013/circuit-structures</link>
+		<comments>http://www.securecomputation.org/2013/circuit-structures#comments</comments>
+		<pubDate>Tue, 05 Mar 2013 01:32:47 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Papers]]></category>
+		<category><![CDATA[Software]]></category>
+
+		<guid isPermaLink="false">http://www.securecomputation.org/?p=136</guid>
+		<description><![CDATA[Circuit Structures paper and software is now available.  Samee Zahur will present the paper at Oakland 2013.]]></description>
+			<content:encoded><![CDATA[<p>Samee Zahur and I have written a paper on <a href="http://www.cs.virginia.edu/~evans/pubs/oakland2013/"><em>Circuit Structures for Improving Efficiency of Security and Privacy Tools</em></a>.  The paper explores ways to design static circuits (as used in garbled circuit protocols and symbolic execution, among other things) to provide reasonable efficiency for algorithms that use common data structures like arrays. By taking advantage of somewhat predictable access patterns, as well as batching, our circuit structures are able to provide operations with amortized cost that is polylogarithmic in the size of the data structure (in contrast to naive approaches that would require effectively copying the entire data structure for each operation).  Samee will present the paper at the <a href="http://www.ieee-security.org/TC/SP2013/"><em>IEEE Symposium on Security and Privacy</em></a> (&#8220;Oakland&#8221;) in San Francisco in May.</p>
+<p align="center">
+<img src="http://www.cs.virginia.edu/evans/pubs/oakland2013/netlist.png" width=360 height=280 alt="">
+</p>
+<p><b>Full paper</b> (15 pages): [<a href="http://www.cs.virginia.edu/evans/pubs/oakland2013/circuit-structures.pdf">PDF</a>]<br /><br />
+<b>Project</b>: <a href="http://MightBeEvil.com/netlist"><em>MightBeEvil.com/netlist</em></a><Br><br />
+<b>Code</b>: <a href="http://github.com/samee/netlist">http://github.com/samee/netlist</em></a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.securecomputation.org/2013/circuit-structures/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Quid Pro Quo-tocols</title>
+		<link>http://www.securecomputation.org/2012/quid-pro-quo-tocols</link>
+		<comments>http://www.securecomputation.org/2012/quid-pro-quo-tocols#comments</comments>
+		<pubDate>Thu, 08 Mar 2012 02:53:50 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Papers]]></category>
+
+		<guid isPermaLink="false">http://www.securecomputation.org/?p=133</guid>
+		<description><![CDATA[Our paper on strengthening semi-honest protocols with dual execution is now available, and will be presented at Oakland 2012. ]]></description>
+			<content:encoded><![CDATA[<p>Our paper on strengthening secure computation protocols to resist stronger adversaries is now available:</p>
+<blockquote><p>
+Yan Huang, Jonathan Katz, and David Evans.  <em><a href="http://www.cs.virginia.edu/evans/pubs/oakland2012/">Quid Pro Quo-tocols: Strengthening Semi-Honest Protocols with Dual Execution</em></a>. In <a href="http://www.ieee-security.org/TC/SP2012/"><em>33rd IEEE Symposium on Security and Privacy</em></a> (&#8220;Oakland&#8221; 2012), San Francisco, CA. 20-23 May 2012.  [<a href="http://www.cs.virginia.edu/evans/pubs/oakland2012/quidproquotocols.pdf">PDF</a>, 13 pages]
+</p></blockquote>
+<p>
+<a href="http://www.cs.virginia.edu/~yh8h/">Yan Huang</a> will present the paper at the Oakland conference (which will be held in San Francisco for the first time, after being in Berkeley/Oakland for the first 32 years!) in May.</p>
+<p>
+<b>Abstract:</b> Known protocols for secure two-party computation that are designed to provide full security against malicious behavior are significantly less efficient than protocols intended only to thwart semi-honest adversaries. We present a concrete design and implementation of protocols achieving security guarantees that are much stronger than are possible with semi-honest protocols, at minimal extra cost. Specifically, we consider protocols in which a malicious adversary may learn a single (arbitrary) bit of additional information about the honest party&#8217;s input. Correctness of the honest party&#8217;s output is still guaranteed. Adapting prior work of Mohassel and Franklin, the basic idea in our protocols is to conduct two separate runs of a (specific) semi-honest, garbled-circuit protocol, with the parties swapping roles, followed by an inexpensive secure equality test. We provide a rigorous definition and prove that this protocol leaks no more than one additional bit against a malicious adversary. In addition, we propose some enhancements to reduce the overall information a cheating adversary learns. Our experiments show that protocols meeting this security level can be implemented at cost very close to that of protocols that only achieve semi-honest security. Our results indicate that this model enables the large-scale, practical applications possible within the semi-honest security model, while providing dramatically stronger security guarantees.
+</p>
+<p>
+Full paper (13 pages): [<a href="http://www.cs.virginia.edu/evans/pubs/oakland2012/quidproquotocols.pdf">PDF</a>]<br /><br />
+Project site: <a href="http://MightBeEvil.com/"><em>MightBeEvil.com</em></a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.securecomputation.org/2012/quid-pro-quo-tocols/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Private Set Intersection</title>
+		<link>http://www.securecomputation.org/2011/private-set-intersection</link>
+		<comments>http://www.securecomputation.org/2011/private-set-intersection#comments</comments>
+		<pubDate>Tue, 29 Nov 2011 13:27:28 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Papers]]></category>
+
+		<guid isPermaLink="false">http://www.securecomputation.org/?p=125</guid>
+		<description><![CDATA[Our <a href="http://www.cs.virginia.edu/evans/pubs/ndss2012/">NDSS 2012 paper</a> on using generic garbled circuits to perform <em>private set intersection</em> is now available.]]></description>
+			<content:encoded><![CDATA[<p>Our paper on using generic garbled circuits to perform <em>private set intersection</em> is now available: </p>
+<div class="indented">
+Yan Huang, David Evans, and Jonathan Katz.  <em><a href="http://www.cs.virginia.edu/evans/pubs/ndss2012/">Private Set Intersection: Are Garbled Circuits Better than Custom Protocols?</a></em>.  In<br />
+<a href="http://www.isoc.org/isoc/conferences/ndss/12/"><em>19<sup>th</sup> Network and Distributed Security Symposium</em></a> (NDSS 2012), San Diego, CA.  5-8 February 2012. [<a href="http://www.cs.virginia.edu/evans/pubs/ndss2012/ndss2012/psi.pdf">PDF</a>, 15 pages]
+</div>
+</p>
+<p>
+The paper develops three circuit designs for securely computing the intersection of two sets, where each set is the private input from one protocol participant.  We show that for many scenarios, protocols built using only generic garbled circuit secure computation techniques can be competitive with the best custom-designed protocols for private set intersection.
+</p>
+<p>
+Yan Huang will present the paper at NDSS in San Diego, in February 2012.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.securecomputation.org/2011/private-set-intersection/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>ICISS Paper</title>
+		<link>http://www.securecomputation.org/2011/efficient-secure-computation-with-garbled-circuits</link>
+		<comments>http://www.securecomputation.org/2011/efficient-secure-computation-with-garbled-circuits#comments</comments>
+		<pubDate>Sat, 19 Nov 2011 20:23:24 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Papers]]></category>
+		<category><![CDATA[Talks]]></category>
+
+		<guid isPermaLink="false">http://www.securecomputation.org/?p=119</guid>
+		<description><![CDATA[<a href="http://www.cs.virginia.edu/~evans/pubs/iciss2011/"><em>Efficient Secure Computation with Garbled Circuits</em></a> summarizes our recent work on secure computation.]]></description>
+			<content:encoded><![CDATA[<p><img src="http://www.itsvizag.com/wp-content/uploads/2011/03/Jadavpur-University-Kolkata-300x225.jpg" width=200 align="right" vspace=10 hspace=10><br />
+Our paper on <a href="http://www.cs.virginia.edu/~evans/pubs/iciss2011/"><em>Efficient Secure Computation with Garbled Circuits</em></a> (by Yan Huang, Chih-hao Shen, David Evans, Jonathan Katz, and abhi shelat) is now available (<a href="http://www.cs.virginia.edu/~evans/pubs/iciss2011/">Abstract</a>, Paper [<a href="http://www.cs.virginia.edu/evans/pubs/iciss2011/iciss2011.pdf">PDF</a>, 21 pages]).
+</p>
+<p>
+The paper is connected with a keynote talk David Evans will give at the <a href="http://www.iciss.org.in/default.htm"><em>Seventh International Conference on Information Systems Security</em></a> (ICISS 2011) in Kolkata (previously known as Calcutta), India on 17 December 2011.
+</p>
+<p>
+<b>Abstract.</b>  Secure two-party computation enables applications in which participants compute the output of a function that depends on their private inputs, without revealing those inputs or relying on any trusted third party.  In this paper, we show the potential of building privacy-preserving applications using garbled circuits, a generic technique that until recently was believed to be too inefficient to scale to realistic problems. We present a Java-based framework that uses pipelining and circuit-level optimizations to build efficient and scalable privacy-preserving applications.  Although the standard garbled circuit protocol assumes a very week, honest-but-curious adversary, techniques are available for converting such protocols to resist stronger adversaries, including fully malicious adversaries.  We summarize approaches to producing malicious-resistant secure computations that reduce the costs of transforming a protocol to be secure against stronger adversaries.  In addition, we summarize results on ensuring <em>fairness</em>, the property that either both parties receive the result or neither party does.  Several open problems remain, but as theory and pragmatism advance, secure computation is approaching the point where it offers practical solutions for a wide variety of important problems.
+</p>
+<p><b>Full Paper:</b> [<a href="http://www.cs.virginia.edu/evans/pubs/iciss2011/iciss2011.pdf">PDF</a>, 21 pages]</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.securecomputation.org/2011/efficient-secure-computation-with-garbled-circuits/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+<!-- Quick Cache: failed to write cache. The cache/ directory is either non-existent ( and could not be created ) or it is not writable. -->

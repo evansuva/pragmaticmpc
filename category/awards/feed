@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Secure Computation &#187; Awards</title>
+	<atom:link href="http://www.securecomputation.org/category/awards/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.securecomputation.org</link>
+	<description>Practical Secure Two-Party Computation: Techniques, Tools, and Applications</description>
+	<lastBuildDate>Wed, 06 Jul 2016 15:00:12 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.2.1</generator>
+		<item>
+		<title>iDash Competition Winner</title>
+		<link>http://www.securecomputation.org/2015/idash-competition-winner</link>
+		<comments>http://www.securecomputation.org/2015/idash-competition-winner#comments</comments>
+		<pubDate>Tue, 17 Mar 2015 17:51:02 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Awards]]></category>
+		<category><![CDATA[Meetings]]></category>
+		<category><![CDATA[Software]]></category>
+
+		<guid isPermaLink="false">http://www.securecomputation.org/?p=145</guid>
+		<description><![CDATA[Congratulations to Samee Zahur for winning the iDash Secure Genomics competition (Hamming Distance challenge task), sponsored by Human Longevity, Inc. A video of the event is available at http://www.humangenomeprivacy.org/. Samee&#8217;s solution was built using Obliv-C, a language for data-oblivious computation.]]></description>
+			<content:encoded><![CDATA[<p>Congratulations to Samee Zahur for winning the iDash Secure Genomics competition (Hamming Distance challenge task), sponsored by Human Longevity, Inc.  A video of the event is available at <a href="http://www.humangenomeprivacy.org/2015/AGENDA.html"><em>http://www.humangenomeprivacy.org/</em></a>.</p>
+<p>Samee&#8217;s solution was built using <a href="https://github.com/samee/obliv-c">Obliv-C</a>, a language for data-oblivious computation.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.securecomputation.org/2015/idash-competition-winner/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+<!-- Quick Cache: failed to write cache. The cache/ directory is either non-existent ( and could not be created ) or it is not writable. -->

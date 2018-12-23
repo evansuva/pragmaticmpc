@@ -1,0 +1,50 @@
+baseurl = "https://securecomputation.org"
+languageCode = "en-us"
+title = "Pragmatic MPC"
+subtitle = "A Pragmatic Introduction to Secure Multi-Party Computation"
+copyright = ""
+theme = "srg"
+
+paginate = 10
+paginatePath = "page"
+
+pageNotFoundTitle = "Not Found"
+pageNotFoundDetail = "Your request was determined to be an adversarial example by our web server. This could be because you are evil, but it is most likely a bad link or mistyped URL."
+
+[permalinks]
+    post = "/:slug/"
+    code = "/:slug/"
+
+[taxonomies]
+    tag = "tags"
+    topic = "topics"
+
+[author]
+    name = "David Evans, Vladimir Kolesnikov and Mike Rosulek"
+    email = "evans@virginia.edu"
+
+[params]
+    brand = "Pragmatic MPC"
+    sidebartitle = "Pragmatic MPC"
+    topline = "A Pragmatic Introduction to Secure Multi-Party Computation"
+    footline = "<a href=\"https://securecomputation.org\">SecureComputation.org</a></p>"
+    sidebar = "left"
+    googleAnalytics = "UA-3775212-1"
+    morefonts = '//fonts.googleapis.com/css?family=Open+Sans:400,400italic,200,100,700,300,500,600,800'
+    morefonts2 = '//fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic'
+    nodate = true
+    noauthor = true
+    noread = true
+    nopaging=true
+    notoc=true
+
+[blackfriday]
+    angledQuotes = false
+    fractions = false
+    hrefTargetBlank = false
+    latexDashes = true
+    plainIdAnchors = true
+    extensions = []
+    extensionmask = []
+
+[[menu.footer]]

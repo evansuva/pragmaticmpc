@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.securecomputation.org	TRUE	/	FALSE	1999999999	__cfduid	d8fcc12e6ebd01e7077d03e062d27847e1545602000
+www.securecomputation.org	TRUE	/	FALSE	1999999999	wordpress_test_cookie	WP+Cookie+check
+

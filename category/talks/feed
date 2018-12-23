@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Secure Computation &#187; Talks</title>
+	<atom:link href="http://www.securecomputation.org/category/talks/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.securecomputation.org</link>
+	<description>Practical Secure Two-Party Computation: Techniques, Tools, and Applications</description>
+	<lastBuildDate>Wed, 06 Jul 2016 15:00:12 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.2.1</generator>
+		<item>
+		<title>ICISS Paper</title>
+		<link>http://www.securecomputation.org/2011/efficient-secure-computation-with-garbled-circuits</link>
+		<comments>http://www.securecomputation.org/2011/efficient-secure-computation-with-garbled-circuits#comments</comments>
+		<pubDate>Sat, 19 Nov 2011 20:23:24 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Papers]]></category>
+		<category><![CDATA[Talks]]></category>
+
+		<guid isPermaLink="false">http://www.securecomputation.org/?p=119</guid>
+		<description><![CDATA[<a href="http://www.cs.virginia.edu/~evans/pubs/iciss2011/"><em>Efficient Secure Computation with Garbled Circuits</em></a> summarizes our recent work on secure computation.]]></description>
+			<content:encoded><![CDATA[<p><img src="http://www.itsvizag.com/wp-content/uploads/2011/03/Jadavpur-University-Kolkata-300x225.jpg" width=200 align="right" vspace=10 hspace=10><br />
+Our paper on <a href="http://www.cs.virginia.edu/~evans/pubs/iciss2011/"><em>Efficient Secure Computation with Garbled Circuits</em></a> (by Yan Huang, Chih-hao Shen, David Evans, Jonathan Katz, and abhi shelat) is now available (<a href="http://www.cs.virginia.edu/~evans/pubs/iciss2011/">Abstract</a>, Paper [<a href="http://www.cs.virginia.edu/evans/pubs/iciss2011/iciss2011.pdf">PDF</a>, 21 pages]).
+</p>
+<p>
+The paper is connected with a keynote talk David Evans will give at the <a href="http://www.iciss.org.in/default.htm"><em>Seventh International Conference on Information Systems Security</em></a> (ICISS 2011) in Kolkata (previously known as Calcutta), India on 17 December 2011.
+</p>
+<p>
+<b>Abstract.</b>  Secure two-party computation enables applications in which participants compute the output of a function that depends on their private inputs, without revealing those inputs or relying on any trusted third party.  In this paper, we show the potential of building privacy-preserving applications using garbled circuits, a generic technique that until recently was believed to be too inefficient to scale to realistic problems. We present a Java-based framework that uses pipelining and circuit-level optimizations to build efficient and scalable privacy-preserving applications.  Although the standard garbled circuit protocol assumes a very week, honest-but-curious adversary, techniques are available for converting such protocols to resist stronger adversaries, including fully malicious adversaries.  We summarize approaches to producing malicious-resistant secure computations that reduce the costs of transforming a protocol to be secure against stronger adversaries.  In addition, we summarize results on ensuring <em>fairness</em>, the property that either both parties receive the result or neither party does.  Several open problems remain, but as theory and pragmatism advance, secure computation is approaching the point where it offers practical solutions for a wide variety of important problems.
+</p>
+<p><b>Full Paper:</b> [<a href="http://www.cs.virginia.edu/evans/pubs/iciss2011/iciss2011.pdf">PDF</a>, 21 pages]</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.securecomputation.org/2011/efficient-secure-computation-with-garbled-circuits/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>SMC on Smartphones</title>
+		<link>http://www.securecomputation.org/2011/smc-on-smartphones</link>
+		<comments>http://www.securecomputation.org/2011/smc-on-smartphones#comments</comments>
+		<pubDate>Thu, 25 Aug 2011 10:12:24 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Talks]]></category>
+
+		<guid isPermaLink="false">http://www.securecomputation.org/?p=28</guid>
+		<description><![CDATA[Peter Chapman presented <A href="http://www.cs.virginia.edu/~evans/pubs/hotsec2011/"><em>Privacy-Preserving Applications on Smartphones</em></a> at <a href="http://www.usenix.org/events/hotsec11/tech/"><em>USENIX HotSec</em></a>: <a href="http://www.mightbeevil.com/mobile/hotsec2011/HotSec2011-1.0.pdf">talk slides [PDF]</a>, <a href="http://www.mightbeevil.com/contacts/">demo apps</a>.]]></description>
+			<content:encoded><![CDATA[<p><a href="http://www.mightbeevil.com/mobile/hotsec2011/IMG_5135.JPG"><img  align="right" src="http://www.mightbeevil.com/mobile/hotsec2011/peter-talk2.jpg" hspace=12 vspace=12 width=201 height=220 border=0 ></img></a></p>
+<p>Peter Chapman presented our paper on <A href="http://www.cs.virginia.edu/~evans/pubs/hotsec2011/"><em>Privacy-Preserving Applications on Smartphones</em></a> at the <a href="http://www.usenix.org/events/hotsec11/tech/"><em>6th USENIX Workshop on Hot Topics in Security</em></a> today.  Here are the <a href="http://www.mightbeevil.com/mobile/hotsec2011/HotSec2011-1.0.pdf">talk slides [PDF]</a>.</p>
+<p>
+The <a href="http://www.mightbeevil.com/contacts/">CommonContacts</a> demonstration app is now available in the <a href="https://market.android.com/details?id=edu.virginia.cs.secgrp.seccomp.contacts2">Android Market</a>.</p>
+<p>
+<a href="http://www.mightbeevil.com/mobile"><b>Project Website</b></a>
+</p>
+<p>
+<center><br />
+<a href="http://www.mightbeevil.com/mobile/hotsec2011/IMG_5132.JPG"><img src="http://www.mightbeevil.com/mobile/hotsec2011/peter-talk.jpg" width=496 height=220 border=0></img></a><br />
+</center></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.securecomputation.org/2011/smc-on-smartphones/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Faster Garbled Circuits</title>
+		<link>http://www.securecomputation.org/2011/faster-secure-two-party-computation-using-garbled-circuits</link>
+		<comments>http://www.securecomputation.org/2011/faster-secure-two-party-computation-using-garbled-circuits#comments</comments>
+		<pubDate>Thu, 25 Aug 2011 06:57:39 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Talks]]></category>
+
+		<guid isPermaLink="false">http://www.securecomputation.org/?p=22</guid>
+		<description><![CDATA[Yan Huang's USENIX Security talk on <a href="http://www.cs.virginia.edu/~evans/pubs/usenix2011/"><em>Faster Secure Two-Party Computation Using Garbled Circuits</em></a>: [<a href="http://mightbeevil.com/usenix2011/fastgarbling.pptx">PPTX</a>], [<a href="http://mightbeevil.com/usenix2011/fastgarbling.pdf">PDF</a>], [<a href="http://www.usenix.org/events/sec11/stream/huang/index.html">video</a>]]]></description>
+			<content:encoded><![CDATA[<p>Yan Huang&#8217;s talk on <em>Faster Secure Two-Party Computation Using Garbled Circuits</em> at <a href="http://www.usenix.org/events/sec11/">USENIX Security 2011</a> is now available: [<a href="http://mightbeevil.com/usenix2011/fastgarbling.pptx">PPTX</a>] [<a href="http://mightbeevil.com/usenix2011/fastgarbling.pdf">PDF</a>].  There is also a <a href="http://www.usenix.org/events/sec11/stream/huang/index.html">video of the talk</a>.</p>
+<p>
+You can also read <a href="http://www.cs.virginia.edu/~evans/pubs/usenix2011/">the paper</a> (co-authored with David Evans, Jonathan Katz, and Lior Malka).
+</p>
+</p>
+<p><center><br />
+<a href="http://www.jeffersonswheel.org/images/yan-talk.png"><img src="http://www.jeffersonswheel.org/images/yan-talk-small.png" width=400 border=0></img></a><br />
+</center></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.securecomputation.org/2011/faster-secure-two-party-computation-using-garbled-circuits/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+<!-- Quick Cache: failed to write cache. The cache/ directory is either non-existent ( and could not be created ) or it is not writable. -->

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Secure Computation &#187; Meetings</title>
+	<atom:link href="http://www.securecomputation.org/category/meetings/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.securecomputation.org</link>
+	<description>Practical Secure Two-Party Computation: Techniques, Tools, and Applications</description>
+	<lastBuildDate>Wed, 06 Jul 2016 15:00:12 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.2.1</generator>
+		<item>
+		<title>Two Halves Make a Whole</title>
+		<link>http://www.securecomputation.org/2015/two-halves-make-a-whole</link>
+		<comments>http://www.securecomputation.org/2015/two-halves-make-a-whole#comments</comments>
+		<pubDate>Sat, 28 Mar 2015 17:55:09 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Meetings]]></category>
+		<category><![CDATA[Papers]]></category>
+		<category><![CDATA[Software]]></category>
+
+		<guid isPermaLink="false">http://www.securecomputation.org/?p=147</guid>
+		<description><![CDATA[Surprisingly, it is possible to reduce the data needed for a garbled gate to only two ciphertexts per gate, while preserving free xors. The scheme for doing that is described in our paper, Two Halves Make a Whole: Reducing Data Transfer in Garbled Circuits using Half Gates by Samee Zahur and Mike Rosulek and David [...]]]></description>
+			<content:encoded><![CDATA[<p>Surprisingly, it is possible to reduce the data needed for a garbled gate to only two ciphertexts per gate, while preserving free xors.  The scheme for doing that is described in our paper, <a href="http://eprint.iacr.org/2014/756"><em>Two Halves Make a Whole: Reducing Data Transfer in Garbled Circuits using Half Gates</em></a> by Samee Zahur and Mike Rosulek and David Evans (now <a href="http://eprint.iacr.org/2014/756">available on eprint</a>). Samee Zahur will present the work at <A href="https://www.cosic.esat.kuleuven.be/eurocrypt_2015/papers.shtml">Eurocrypt 2015</a> in Sofia, Bulgaria, 26-30 April. </p>
+<p><b>Abstract.</b> The well-known classical constructions of garbled circuits use four ciphertexts per gate, although various methods have been proposed to reduce this cost. The best previously known methods for optimizing AND gates (two ciphertexts; Pinkas et al., ASIACRYPT 2009) and XOR gates (zero ciphertexts; Kolesnikov &#038; Schneider, ICALP 2008) were incompatible, so most implementations used the best known method compatible with free-XOR gates (three ciphertexts; Kolesnikov &#038; Schneider, ICALP 2008). In this work we show how to simultaneously garble AND gates using two ciphertexts and XOR gates using zero ciphertexts, resulting in smaller garbled circuits than any prior scheme. The main idea behind our construction is to break an AND gate into two half-gates &mdash; AND gates for which one party knows one input. Each half-gate can be garbled with a single ciphertext, so our construction uses two ciphertexts for each AND gate while being compatible with free-XOR gates. The price for the reduction in size is that the evaluator must perform two cryptographic operations per AND gate, rather than one as in previous schemes. We experimentally demonstrate that our garbling scheme leads to an overall decrease in time (up to 25%), bandwidth (up to 33%), and energy use (up to 20%) over several benchmark applications. We also initiate a study of lower bounds for garbled gate size, and show that our construction is optimal for a large class of garbling schemes encompassing all known practical garbling techniques.</p>
+<p><center><br />
+<img src="http://www.jeffersonswheel.org/images/halfgatestable-small.png" width=700 height=279><br />
+</center></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.securecomputation.org/2015/two-halves-make-a-whole/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>iDash Competition Winner</title>
+		<link>http://www.securecomputation.org/2015/idash-competition-winner</link>
+		<comments>http://www.securecomputation.org/2015/idash-competition-winner#comments</comments>
+		<pubDate>Tue, 17 Mar 2015 17:51:02 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Awards]]></category>
+		<category><![CDATA[Meetings]]></category>
+		<category><![CDATA[Software]]></category>
+
+		<guid isPermaLink="false">http://www.securecomputation.org/?p=145</guid>
+		<description><![CDATA[Congratulations to Samee Zahur for winning the iDash Secure Genomics competition (Hamming Distance challenge task), sponsored by Human Longevity, Inc. A video of the event is available at http://www.humangenomeprivacy.org/. Samee&#8217;s solution was built using Obliv-C, a language for data-oblivious computation.]]></description>
+			<content:encoded><![CDATA[<p>Congratulations to Samee Zahur for winning the iDash Secure Genomics competition (Hamming Distance challenge task), sponsored by Human Longevity, Inc.  A video of the event is available at <a href="http://www.humangenomeprivacy.org/2015/AGENDA.html"><em>http://www.humangenomeprivacy.org/</em></a>.</p>
+<p>Samee&#8217;s solution was built using <a href="https://github.com/samee/obliv-c">Obliv-C</a>, a language for data-oblivious computation.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.securecomputation.org/2015/idash-competition-winner/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Kickoff Meeting Photos</title>
+		<link>http://www.securecomputation.org/2011/kick-off-meeting</link>
+		<comments>http://www.securecomputation.org/2011/kick-off-meeting#comments</comments>
+		<pubDate>Sat, 03 Sep 2011 22:37:26 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Meetings]]></category>
+
+		<guid isPermaLink="false">http://www.securecomputation.org/?p=86</guid>
+		<description><![CDATA[Here are some photos of the Kickoff meeting in Charlottesville...]]></description>
+			<content:encoded><![CDATA[<p>Here&#8217;s a few photos from the kick-off meeting.</p>
+<p><center><br />
+<a href="http://www.securecomputation.org/wp-content/uploads/2011/09/IMG_1527.png"><img src="http://www.securecomputation.org/wp-content/uploads/2011/09/IMG_1527-1024x705.png" alt="" title="IMG_1527" width="512" class="alignnone size-large wp-image-87" /></a><br /><br />
+<b>Principal Investigators</b> (Left-to-Right):<Br>abhi shelat, Steven Myers, Michael Hicks, Jonathan Katz, Aaron Mackey, David Evans</p>
+<p><a href="http://www.securecomputation.org/wp-content/uploads/2011/09/IMG_1525.png"><img src="http://www.securecomputation.org/wp-content/uploads/2011/09/IMG_1525-1024x768.png" alt="" title="IMG_1525" width="512" class="alignnone size-large wp-image-88" /></a><br /><br />
+<b>Mona Sergi&#8217;s Talk</b><br />
+</center></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.securecomputation.org/2011/kick-off-meeting/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Kickoff Meeting</title>
+		<link>http://www.securecomputation.org/2011/kickoff-meeting</link>
+		<comments>http://www.securecomputation.org/2011/kickoff-meeting#comments</comments>
+		<pubDate>Thu, 25 Aug 2011 12:14:20 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Meetings]]></category>
+
+		<guid isPermaLink="false">http://www.securecomputation.org/?p=36</guid>
+		<description><![CDATA[The Kickoff Meeting will be Tuesday, August 30th in Charlottesville, VA.  The planned agenda is <a href="http://www.securecomputation.org/kickoff/">here</a>.]]></description>
+			<content:encoded><![CDATA[<p>The Kickoff Meeting will be Tuesday, August 30th in Charlottesville, VA.  The planned agenda is <a href="http://www.securecomputation.org/kickoff/">here</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.securecomputation.org/2011/kickoff-meeting/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+<!-- Quick Cache: failed to write cache. The cache/ directory is either non-existent ( and could not be created ) or it is not writable. -->

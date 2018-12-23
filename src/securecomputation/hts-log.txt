@@ -1,0 +1,82 @@
+HTTrack3.49-2 launched on Sun, 23 Dec 2018 16:53:20 at www.securecomputation.org
+(httrack www.securecomputation.org )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:54:09	Error: 	"Error when decompressing" (-1) at link www.securecomputation.org/feed (from www.securecomputation.org/)
+16:54:09	Error: 	"Not Found" (404) at link www.securecomputation.org/comments/feed (from www.securecomputation.org/)
+16:57:39	Warning: 	Link www.securecomputation.org/wp-login.php?registration=disabled not scanned (follow robots meta tag)
+16:57:39	Warning: 	Link www.securecomputation.org/wp-login.php not scanned (follow robots meta tag)
+16:57:39	Warning: 	Found for www.securecomputation.org/?page_id=99
+16:57:39	Warning: 	File has moved from www.securecomputation.org/?page_id=99 to http://www.securecomputation.org/wp-login.php?redirect_to=/?page_id=99
+16:57:45	Warning: 	Link www.securecomputation.org/wp-login.php?redirect_to=/members not scanned (follow robots meta tag)
+16:57:45	Error: 	"Not Found" (404) at link www.securecomputation.org/docs/sqoram.pdf (from www.securecomputation.org/papers)
+16:57:45	Error: 	"Not Found" (404) at link www.securecomputation.org/secure-biometrics/ndss2011.pdf (from www.securecomputation.org/papers)
+16:57:45	Warning: 	Link www.securecomputation.org/wp-login.php?redirect_to=http%3A%2F%2Fwww.securecomputation.org%2Fpapers not scanned (follow robots meta tag)
+16:57:45	Warning: 	Link www.securecomputation.org/wp-login.php?redirect_to=http%3A%2F%2Fwww.securecomputation.org%2Fprojects not scanned (follow robots meta tag)
+17:02:00	Warning: 	Link www.securecomputation.org/wp-login.php?redirect_to=http%3A%2F%2Fwww.securecomputation.org%2Fteam not scanned (follow robots meta tag)
+17:02:03	Warning: 	Moved Permanently for www.securecomputation.org/?p=18
+17:02:03	Warning: 	File has moved from www.securecomputation.org/?p=18 to http://www.securecomputation.org/2011/practical-secure-two-party-computation-techniques-tools-and-applications
+17:02:07	Warning: 	Moved Permanently for www.securecomputation.org/?p=168
+17:02:07	Warning: 	File has moved from www.securecomputation.org/?p=168 to http://www.securecomputation.org/2016/secure-computation-in-the-mips-machine
+17:02:10	Warning: 	Moved Permanently for www.securecomputation.org/?p=165
+17:02:10	Warning: 	File has moved from www.securecomputation.org/?p=165 to http://www.securecomputation.org/2016/the-cut-and-choose-game-and-its-application-to-cryptographic-protocols
+17:02:11	Warning: 	Moved Permanently for www.securecomputation.org/?p=153
+17:02:11	Warning: 	File has moved from www.securecomputation.org/?p=153 to http://www.securecomputation.org/2016/square-root-oram
+17:02:11	Warning: 	Moved Permanently for www.securecomputation.org/?p=147
+17:02:11	Warning: 	File has moved from www.securecomputation.org/?p=147 to http://www.securecomputation.org/2015/two-halves-make-a-whole
+17:02:12	Warning: 	Moved Permanently for www.securecomputation.org/?p=145
+17:02:12	Warning: 	File has moved from www.securecomputation.org/?p=145 to http://www.securecomputation.org/2015/idash-competition-winner
+17:02:13	Warning: 	Moved Permanently for www.securecomputation.org/?p=149
+17:02:13	Warning: 	File has moved from www.securecomputation.org/?p=149 to http://www.securecomputation.org/2015/congratulations-professor-huang
+17:02:15	Error: 	"Not Found" (404) at link www.securecomputation.org/images/Huang-Yan-2014-09.jpg (from www.securecomputation.org/2015/congratulations-professor-huang)
+17:02:15	Warning: 	Moved Permanently for www.securecomputation.org/?p=140
+17:02:15	Warning: 	File has moved from www.securecomputation.org/?p=140 to http://www.securecomputation.org/2013/symmetric-cut-and-choose
+17:02:16	Warning: 	Moved Permanently for www.securecomputation.org/?p=136
+17:02:16	Warning: 	File has moved from www.securecomputation.org/?p=136 to http://www.securecomputation.org/2013/circuit-structures
+17:03:16	Warning: 	Link www.securecomputation.org/wp-login.php?redirect_to=/?page_id=99 not scanned (follow robots meta tag)
+17:03:16	Warning: 	Link www.securecomputation.org/wp-login.php?redirect_to=http%3A%2F%2Fwww.securecomputation.org%2Fkickoff-meeting not scanned (follow robots meta tag)
+17:03:16	Warning: 	Moved Permanently for www.securecomputation.org/?p=22
+17:03:16	Warning: 	File has moved from www.securecomputation.org/?p=22 to http://www.securecomputation.org/2011/faster-secure-two-party-computation-using-garbled-circuits
+17:03:18	Warning: 	Moved Permanently for www.securecomputation.org/?p=28
+17:03:18	Warning: 	File has moved from www.securecomputation.org/?p=28 to http://www.securecomputation.org/2011/smc-on-smartphones
+17:03:23	Warning: 	Moved Permanently for www.securecomputation.org/?p=133
+17:03:23	Warning: 	File has moved from www.securecomputation.org/?p=133 to http://www.securecomputation.org/2012/quid-pro-quo-tocols
+17:03:23	Warning: 	Moved Permanently for www.securecomputation.org/?p=125
+17:03:23	Warning: 	File has moved from www.securecomputation.org/?p=125 to http://www.securecomputation.org/2011/private-set-intersection
+17:03:23	Warning: 	Moved Permanently for www.securecomputation.org/?p=119
+17:03:23	Warning: 	File has moved from www.securecomputation.org/?p=119 to http://www.securecomputation.org/2011/efficient-secure-computation-with-garbled-circuits
+17:03:23	Warning: 	Link www.securecomputation.org/wp-login.php?redirect_to=/2011/kickoff-meeting-notes not scanned (follow robots meta tag)
+17:03:23	Warning: 	Moved Permanently for www.securecomputation.org/?p=114
+17:03:23	Warning: 	File has moved from www.securecomputation.org/?p=114 to http://www.securecomputation.org/2011/uva-today-story
+17:03:23	Warning: 	Moved Permanently for www.securecomputation.org/?p=86
+17:03:23	Warning: 	File has moved from www.securecomputation.org/?p=86 to http://www.securecomputation.org/2011/kick-off-meeting
+17:06:06	Warning: 	Moved Permanently for www.securecomputation.org/?p=36
+17:06:06	Warning: 	File has moved from www.securecomputation.org/?p=36 to http://www.securecomputation.org/2011/kickoff-meeting
+17:06:06	Warning: 	Moved Permanently for www.securecomputation.org/?feed=rss2
+17:06:06	Warning: 	File has moved from www.securecomputation.org/?feed=rss2 to http://www.securecomputation.org/feed
+17:06:06	Warning: 	Moved Permanently for www.securecomputation.org/?feed=atom
+17:06:06	Warning: 	File has moved from www.securecomputation.org/?feed=atom to http://www.securecomputation.org/feed/atom
+17:06:06	Error: 	"Not Found" (404) at link www.securecomputation.org/?feed=comments-rss2 (from www.securecomputation.org/kickoff/)
+17:06:06	Warning: 	Moved Permanently for www.securecomputation.org/?feed=rss2&page_id=59
+17:06:06	Warning: 	File has moved from www.securecomputation.org/?feed=rss2&page_id=59 to http://www.securecomputation.org/feed
+17:06:06	Warning: 	Moved Permanently for www.securecomputation.org/?page_id=9
+17:06:06	Warning: 	File has moved from www.securecomputation.org/?page_id=9 to http://www.securecomputation.org/projects
+17:06:06	Warning: 	Moved Permanently for www.securecomputation.org/?page_id=77
+17:06:06	Warning: 	File has moved from www.securecomputation.org/?page_id=77 to http://www.securecomputation.org/papers
+17:06:06	Warning: 	Moved Permanently for www.securecomputation.org/?page_id=59
+17:06:06	Warning: 	File has moved from www.securecomputation.org/?page_id=59 to http://www.securecomputation.org/kickoff-meeting
+17:06:06	Warning: 	Moved Permanently for www.securecomputation.org/?page_id=7
+17:06:06	Warning: 	File has moved from www.securecomputation.org/?page_id=7 to http://www.securecomputation.org/team
+17:06:06	Warning: 	Moved Permanently for www.securecomputation.org/?p=44
+17:06:06	Warning: 	File has moved from www.securecomputation.org/?p=44 to http://www.securecomputation.org/2011/garbled-circuits-framework
+17:06:07	Warning: 	Moved Permanently for www.securecomputation.org/author/admin/
+17:06:07	Warning: 	File has moved from www.securecomputation.org/author/admin/ to http://www.securecomputation.org/author/admin
+17:06:07	Warning: 	Moved Permanently for www.securecomputation.org/category/papers/
+17:06:07	Warning: 	File has moved from www.securecomputation.org/category/papers/ to http://www.securecomputation.org/category/papers
+
+HTTrack Website Copier/3.49-2 mirror complete in 12 minutes 47 seconds : 301 links scanned, 266 files written (8490837 bytes overall) [8011305 bytes received at 10444 bytes/sec], 923131 bytes transferred using HTTP compression in 96 files, ratio 29%, 21.7 requests per connection
+(6 errors, 65 warnings, 0 messages)

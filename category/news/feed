@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Secure Computation &#187; News</title>
+	<atom:link href="http://www.securecomputation.org/category/news/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.securecomputation.org</link>
+	<description>Practical Secure Two-Party Computation: Techniques, Tools, and Applications</description>
+	<lastBuildDate>Wed, 06 Jul 2016 15:00:12 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.2.1</generator>
+		<item>
+		<title>Congratulations Professor Huang!</title>
+		<link>http://www.securecomputation.org/2015/congratulations-professor-huang</link>
+		<comments>http://www.securecomputation.org/2015/congratulations-professor-huang#comments</comments>
+		<pubDate>Sat, 28 Feb 2015 18:55:31 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Notes]]></category>
+
+		<guid isPermaLink="false">http://www.securecomputation.org/?p=149</guid>
+		<description><![CDATA[Yan Huang, who completed his PhD in 2012 and was the original lead PhD student for this project, and then was a post-doc at the University of Maryland, is now an Assistant Professor at Indiana University. See his IU faculty page and personal blog. IU is the also the home of Steven Myers, one of [...]]]></description>
+			<content:encoded><![CDATA[<p><img src="/images/Huang-Yan-2014-09.jpg" align="right" width="220" height="220" style="margin: 10px 10px"><br />
+Yan Huang, who completed his PhD in 2012 and was the original lead PhD student for this project, and then was a post-doc at the University of Maryland, is now an Assistant Professor at Indiana University.  See his <a href="http://www.soic.indiana.edu/faculty-research/directory/profile.html?profile_id=357">IU faculty page</a> and <a href="http://yhuangpress.wordpress.com/">personal blog</a>.  IU is the also the home of <a href="http://www.soic.indiana.edu/faculty-research/directory/profile.html?profile_id=261">Steven Myers</a>, one of the PIs of our NSF funded secure computation project.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.securecomputation.org/2015/congratulations-professor-huang/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Quid Pro Quo-tocols</title>
+		<link>http://www.securecomputation.org/2012/quid-pro-quo-tocols</link>
+		<comments>http://www.securecomputation.org/2012/quid-pro-quo-tocols#comments</comments>
+		<pubDate>Thu, 08 Mar 2012 02:53:50 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Papers]]></category>
+
+		<guid isPermaLink="false">http://www.securecomputation.org/?p=133</guid>
+		<description><![CDATA[Our paper on strengthening semi-honest protocols with dual execution is now available, and will be presented at Oakland 2012. ]]></description>
+			<content:encoded><![CDATA[<p>Our paper on strengthening secure computation protocols to resist stronger adversaries is now available:</p>
+<blockquote><p>
+Yan Huang, Jonathan Katz, and David Evans.  <em><a href="http://www.cs.virginia.edu/evans/pubs/oakland2012/">Quid Pro Quo-tocols: Strengthening Semi-Honest Protocols with Dual Execution</em></a>. In <a href="http://www.ieee-security.org/TC/SP2012/"><em>33rd IEEE Symposium on Security and Privacy</em></a> (&#8220;Oakland&#8221; 2012), San Francisco, CA. 20-23 May 2012.  [<a href="http://www.cs.virginia.edu/evans/pubs/oakland2012/quidproquotocols.pdf">PDF</a>, 13 pages]
+</p></blockquote>
+<p>
+<a href="http://www.cs.virginia.edu/~yh8h/">Yan Huang</a> will present the paper at the Oakland conference (which will be held in San Francisco for the first time, after being in Berkeley/Oakland for the first 32 years!) in May.</p>
+<p>
+<b>Abstract:</b> Known protocols for secure two-party computation that are designed to provide full security against malicious behavior are significantly less efficient than protocols intended only to thwart semi-honest adversaries. We present a concrete design and implementation of protocols achieving security guarantees that are much stronger than are possible with semi-honest protocols, at minimal extra cost. Specifically, we consider protocols in which a malicious adversary may learn a single (arbitrary) bit of additional information about the honest party&#8217;s input. Correctness of the honest party&#8217;s output is still guaranteed. Adapting prior work of Mohassel and Franklin, the basic idea in our protocols is to conduct two separate runs of a (specific) semi-honest, garbled-circuit protocol, with the parties swapping roles, followed by an inexpensive secure equality test. We provide a rigorous definition and prove that this protocol leaks no more than one additional bit against a malicious adversary. In addition, we propose some enhancements to reduce the overall information a cheating adversary learns. Our experiments show that protocols meeting this security level can be implemented at cost very close to that of protocols that only achieve semi-honest security. Our results indicate that this model enables the large-scale, practical applications possible within the semi-honest security model, while providing dramatically stronger security guarantees.
+</p>
+<p>
+Full paper (13 pages): [<a href="http://www.cs.virginia.edu/evans/pubs/oakland2012/quidproquotocols.pdf">PDF</a>]<br /><br />
+Project site: <a href="http://MightBeEvil.com/"><em>MightBeEvil.com</em></a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.securecomputation.org/2012/quid-pro-quo-tocols/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>UVa Today Story</title>
+		<link>http://www.securecomputation.org/2011/uva-today-story</link>
+		<comments>http://www.securecomputation.org/2011/uva-today-story#comments</comments>
+		<pubDate>Fri, 14 Oct 2011 20:47:14 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[News]]></category>
+
+		<guid isPermaLink="false">http://www.securecomputation.org/?p=114</guid>
+		<description><![CDATA[<em>UVa Today</em> has a story about our <a href="http://www.securecomputation.org">secure computation</a> project: <a href="http://www.virginia.edu/uvatoday/newsRelease.php?id=16340#"><em>U.Va. Team Awarded $3 Million NSF Secure Computation Grant</em></a>.]]></description>
+			<content:encoded><![CDATA[<p><em>UVa Today</em> has a story about our <a href="http://www.securecomputation.org">secure computation</a> project: <a href="http://www.virginia.edu/uvatoday/newsRelease.php?id=16340#"><em>U.Va. Team Awarded $3 Million NSF Secure Computation Grant</em></a>, Fariss Samarrai, UVa Today, 14 October 2011.
+</p>
+<p><center><br />
+<a href="http://www.jeffersonswheel.org/images/yanabhidave.png"><img src="http://www.jeffersonswheel.org/images/yanabhidave-small.png" width=525 height=350></a></p>
+<p align="right"><font color="gray">Photo: Cole Geddy</font></p>
+<p></center></p>
+<blockquote><p>
+<em><br />
+&#8220;Secure computation is the idea that you can have two people compute a function that depends on things that each one knows individually and wants to keep private without exposing their private data to the other person, or to anyone else,&#8221; Evans said.
+</p>
+<p>
+The research has applications in everyday life, from private medical information, such as personal genomics, to privacy-preserving face recognition and electronic commerce.
+</p>
+<p>
+As a simple example of how it works, consider two people who each have smartphones with personal address books. They would like to know if they know any of the same people by comparing their address books. But, they may not want to share their address books, which include potentially sensitive private information. So how can they find the common entries, without revealing anything about their other contacts?<br />
+</em></p>
+<p>
+<a href="http://www.virginia.edu/uvatoday/newsRelease.php?id=16340#">Read More &#8230;</a>
+</p></blockquote>
+]]></content:encoded>
+			<wfw:commentRss>http://www.securecomputation.org/2011/uva-today-story/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+<!-- Quick Cache: failed to write cache. The cache/ directory is either non-existent ( and could not be created ) or it is not writable. -->
