@@ -21,8 +21,7 @@ and assumptions impact the practicality of different approaches.
 
 **Full Text:** [[PDF](/docs/pragmaticmpc.pdf)]
 
-NOW Publishers, December 2018
-
+NOW Publishers, December 2018: [Publishers Page](https://www.nowpublishers.com/article/Details/SEC-019)
 
 ## Contents
 
