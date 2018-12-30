@@ -7,6 +7,7 @@ type = "index"
 
 ### [David Evans](//www.cs.virginia.edu/evans), [Vladimir Kolesnikov](https://www.scs.gatech.edu/people/vladimir-kolesnikov) and [Mike Rosulek](http://web.engr.oregonstate.edu/~rosulekm/)
 
+<a href="https://www.nowpublishers.com/article/Details/SEC-019"><img src="/images/nowcover.jpg" align="right" width="100" style="padding-left: 20px"></a>
 Secure multi-party computation (MPC) has evolved from a theoretical
 curiosity in the 1980s to a tool for building real systems today. Over
 the past decade, MPC has been one of the most active research areas in
