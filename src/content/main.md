@@ -20,7 +20,7 @@ research and aim to give readers insights into what problems are
 practically solvable using MPC today and how different threat models
 and assumptions impact the practicality of different approaches.
 
-**Full Text:** [[PDF](/docs/pragmaticmpc.pdf)]
+**Full Text:** [[PDF](/docs/pragmaticmpc.pdf)] (Last update: 11 July 2019; [[Errata PDF](/docs/errata.pdf)])
 
 NOW Publishers, December 2018: [Publishers Page](https://www.nowpublishers.com/article/Details/SEC-019)
 
