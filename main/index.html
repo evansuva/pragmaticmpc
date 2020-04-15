@@ -15,7 +15,7 @@
 <meta name="description" content="">
 <meta name="keywords" content="">
 <meta name="author" content="">
-<meta name="generator" content="Hugo 0.17" />
+<meta name="generator" content="Hugo 0.68.3" />
 
 
   <meta property="og:title" content="A Pragmatic Introduction to Secure Multi-Party Computation" />
@@ -41,22 +41,7 @@
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href=>
   <link rel="shortcut icon" href=>
 
-  
-  <link href="" rel="alternate" type="application/rss+xml" title="Pragmatic MPC" />
-
-    
-  
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/tomorrow-night-bright.min.css">
-  
-  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script>
-
-
   <link rel="stylesheet" href="https://securecomputation.org/css/srg.css">
-
-  
-
-  
 
   
 </head>
@@ -94,16 +79,16 @@
 		    <div id="toc" class="pure-u-1 pure-u-md-1-4">
 				<small class="toc-label">Contents</small>
 		   	 	<nav id="TableOfContents">
-<ul>
-<li><a href="#a-pragmatic-introduction-to-br-secure-multi-party-computation">A Pragmatic Introduction to<br> Secure Multi-Party Computation</a>
-<ul>
-<li>
-<ul>
-<li><a href="#david-evans-www-cs-virginia-edu-evans-vladimir-kolesnikov-https-www-scs-gatech-edu-people-vladimir-kolesnikov-and-mike-rosulek-http-web-engr-oregonstate-edu-rosulekm"><a href="//www.cs.virginia.edu/evans">David Evans</a>, <a href="https://www.scs.gatech.edu/people/vladimir-kolesnikov">Vladimir Kolesnikov</a> and <a href="http://web.engr.oregonstate.edu/~rosulekm/">Mike Rosulek</a></a></li>
-</ul></li>
-<li><a href="#contents">Contents</a></li>
-</ul></li>
-</ul>
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#david-evanswwwcsvirginiaeduevans-vladimir-kolesnikovhttpswwwscsgatechedupeoplevladimir-kolesnikov-and-mike-rosulekhttpwebengroregonstateedurosulekm"><a href="//www.cs.virginia.edu/evans">David Evans</a>, <a href="https://www.scs.gatech.edu/people/vladimir-kolesnikov">Vladimir Kolesnikov</a> and <a href="http://web.engr.oregonstate.edu/~rosulekm/">Mike Rosulek</a></a></li>
+      </ul>
+    </li>
+    <li><a href="#contents">Contents</a></li>
+    <li><a href="#adoptions">Adoptions</a></li>
+    <li><a href="#heading"></a></li>
+  </ul>
 </nav>
 		    </div>
 		    
@@ -131,12 +116,8 @@
 
 			
 
-            
-
-<h1 id="a-pragmatic-introduction-to-br-secure-multi-party-computation">A Pragmatic Introduction to<br> Secure Multi-Party Computation</h1>
-
-<h3 id="david-evans-www-cs-virginia-edu-evans-vladimir-kolesnikov-https-www-scs-gatech-edu-people-vladimir-kolesnikov-and-mike-rosulek-http-web-engr-oregonstate-edu-rosulekm"><a href="//www.cs.virginia.edu/evans">David Evans</a>, <a href="https://www.scs.gatech.edu/people/vladimir-kolesnikov">Vladimir Kolesnikov</a> and <a href="http://web.engr.oregonstate.edu/~rosulekm/">Mike Rosulek</a></h3>
-
+            <h1 id="a-pragmatic-introduction-tobr-secure-multi-party-computation">A Pragmatic Introduction to<br> Secure Multi-Party Computation</h1>
+<h3 id="david-evanswwwcsvirginiaeduevans-vladimir-kolesnikovhttpswwwscsgatechedupeoplevladimir-kolesnikov-and-mike-rosulekhttpwebengroregonstateedurosulekm"><a href="//www.cs.virginia.edu/evans">David Evans</a>, <a href="https://www.scs.gatech.edu/people/vladimir-kolesnikov">Vladimir Kolesnikov</a> and <a href="http://web.engr.oregonstate.edu/~rosulekm/">Mike Rosulek</a></h3>
 <p><a href="https://www.nowpublishers.com/article/Details/SEC-019"><img src="/images/nowcover.jpg" align="right" width="100" style="padding-left: 20px"></a>
 Secure multi-party computation (MPC) has evolved from a theoretical
 curiosity in the 1980s to a tool for building real systems today. Over
@@ -149,26 +130,20 @@ constructions, we overview the most currently active areas of MPC
 research and aim to give readers insights into what problems are
 practically solvable using MPC today and how different threat models
 and assumptions impact the practicality of different approaches.</p>
-
-<p><a href="/docs/pragmaticmpc.pdf"><strong>Full Text (PDF)</strong></a> (Last update: 2 October 2019; <a href="/docs/errata.pdf">Errata</a>)</p>
-
+<p><a href="/docs/pragmaticmpc.pdf"><strong>Full Text (PDF)</strong></a> (Last update: 14 April 2020; <a href="/docs/errata.pdf">Errata</a>)</p>
 <p>NOW Publishers, December 2018: <a href="https://www.nowpublishers.com/article/Details/SEC-019">Publishers Page</a></p>
-
 <h2 id="contents">Contents</h2>
-
 <div class="toc_chap">1 Introduction <span class="pdf">[<a href="/docs/ch1-introduction.pdf">PDF</a>]</span></div>
 <div class="toc_sec">1.1 Outsourced Computation</div>
 <div class="toc_sec">1.2 Multi-Party Computation</div> 
 <div class="toc_sec">1.3 MPC Applications</div>
 <div class="toc_sec">1.4 Overview</div>
-
 <div class="toc_chap">2 Defining Multi-Party Computation <span class="pdf">[<a href="/docs/ch2-definingmpc.pdf">PDF</a>]</span></div>
 <div class="toc_sec">2.1 Notations and Conventions </div>
 <div class="toc_sec">2.2 Basic Primitives </div>
 <div class="toc_sec">2.3 Security of Multi-Party Computation </div>
 <div class="toc_sec">2.4 Specific Functionalities of Interest </div>
 <div class="toc_sec">2.5 Further Reading </div>
-
 <div class="toc_chap">3 Fundamental MPC Protocols <span class="pdf">[<a href="/docs/ch3-fundamentalprotocols.pdf">PDF</a>]</span></div>
 <div class="toc_sec">3.1 Yao's Garbled Circuits Protocol</div>
 <div class="toc_sec">3.2 Goldreich-Micali-Wigderson (GMW) Protocol</div>
@@ -179,14 +154,12 @@ and assumptions impact the practicality of different approaches.</p>
 <div class="toc_sec">3.7 Oblivious Transfer</div>
 <div class="toc_sec">3.8 Custom Protocols</div>
 <div class="toc_sec">3.9 Further Reading</div>
-
 <div class="toc_chap">4 Implementation Techniques <span class="pdf">[<a href="/docs/ch4-implementationtechniques.pdf">PDF</a>]</span></div>
 <div class="toc_sec">4.1 Less Expensive Garbling</div>
 <div class="toc_sec">4.2 Optimizing Circuits</div>
 <div class="toc_sec">4.3 Protocol Execution</div>
 <div class="toc_sec">4.4 Programming Tools</div>
 <div class="toc_sec">4.5 Further Reading</div>
-
 <div class="toc_chap">5 Oblivious Data Structures <span class="pdf">[<a href="/docs/ch5-obliviousdata.pdf">PDF</a>]</span></div>
 <div class="toc_sec">5.1 Tailored Oblivious Data Structures</div>
 <div class="toc_sec">5.2 RAM-Based MPC</div>
@@ -194,7 +167,6 @@ and assumptions impact the practicality of different approaches.</p>
 <div class="toc_sec">5.4 Square-Root RAM-MPC</div>
 <div class="toc_sec">5.5 Floram</div>
 <div class="toc_sec">5.6 Further Reading</div>
-
 <div class="toc_chap">6 Malicious Security <span class="pdf">[<a href="/docs/ch6-malicioussecurity.pdf">PDF</a>]</span></div>
 <div class="toc_sec">6.1 Cut-and-Choose</div>
 <div class="toc_sec">6.2 Input Recovery Technique</div>
@@ -204,7 +176,6 @@ and assumptions impact the practicality of different approaches.</p>
 <div class="toc_sec">6.6 Authenticated Secret Sharing: BDOZ and SPDZ</div>
 <div class="toc_sec">6.7 Authenticated Garbling</div>
 <div class="toc_sec">6.8 Further Reading</div>
-
 <div class="toc_chap">7 Alternative Threat Models <span class="pdf">[<a href="/docs/ch7-alternativethreatmodels.pdf">PDF</a>]</span></div>
 <div class="toc_sec">7.1 Honest Majority</div>
 <div class="toc_sec">7.2 Asymmetric Trust</div>
@@ -213,10 +184,21 @@ and assumptions impact the practicality of different approaches.</p>
 <div class="toc_sec">7.5 Reducing Communication in Cut-and-Choose Protocols</div>
 <div class="toc_sec">7.6 Trading Off Leakage for Efficiency</div>
 <div class="toc_sec">7.7 Further Reading</div>
-
 <div class="toc_chap">8 Conclusion <span class="pdf">[<a href="/docs/ch8-conclusion.pdf">PDF</a>]</span></div>
-
 <div class="toc_chap">References <span class="pdf">[<a href="/docs/references.pdf">PDF</a>]</span></div>
+<h2 id="adoptions">Adoptions</h2>
+<p>We are aware of parts of this book being used in the following courses:</p>
+<p>Boston University CS 791/JD 673 / UC Berkeley CS 294, <a href="https://docs.google.com/document/d/e/2PACX-1vTuiFeRgaCFiHS04PmPFNgh4BOSlW1_SBhNEtaxL5DSHzmFxNsWD0-_yffhnZn5y65QiUqnKuMOJZ4u/pub">Law for Algorithms</a><br>
+Ran Canetti (BU CS), Stacey Dogan (BU Law), Aloni Cohen (BU CS &amp; Law), Shafi Goldwasser (UC Berkeley CS), Frank Partnoy (UC Berkeley Law)</p>
+<p>Brown CS 2950, <a href="http://cs.brown.edu/~seny/2950v/">Topics in Applied Cryptography: Crypto for Social Good</a><br>
+Seny Kamara</p>
+<p>George Washington University GWU CSIC 3907-83/6907-81, <a href="https://www2.seas.gwu.edu/~arkady/teaching/advanced_crypto/s20/">Advanced Cryptography</a><br>
+Arkady Yerukhimovich</p>
+<p>Stanford  CS 355, <a href="https://crypto.stanford.edu/cs355/20sp/schedule/">Topics in Cryptography</a><br>
+Saba Eskandarian, Dima Kogan, and Florian Tramèr</p>
+<h2 id="heading"></h2>
+<h1 id="heading-1"></h1>
+<p>If you know of other courses using the book, please <a href="mailto:evans@virginia.edu">let me know</a>.</p>
 
 	
 			
@@ -227,13 +209,13 @@ and assumptions impact the practicality of different approaches.</p>
 				<div class="paging">
 					<span class="paging-label">More Reading</span>
 					
-					<div class="paging-newer">
-						<span class="dark-red">Newer</span><span class="decorative-marker">//</span>
-						<a class="paging-link" href="/welcome/">Welcome</a>
-		            </div>
-		            
 
 					
+					<div class="paging-older">
+						<span class="dark-red">Older</span><span class="decorative-marker">//</span>
+			            <a class="paging-link" href="/welcome/">Welcome</a>
+		            </div>
+		            
 	            </div>
             
           </section>

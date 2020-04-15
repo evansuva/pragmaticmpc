@@ -11,6 +11,9 @@ paginatePath = "page"
 pageNotFoundTitle = "Not Found"
 pageNotFoundDetail = "Your request was determined to be an adversarial example by our web server. This could be because you are evil, but it is most likely a bad link or mistyped URL."
 
+[markup.goldmark.renderer]
+unsafe= true
+
 [permalinks]
     post = "/:slug/"
     code = "/:slug/"

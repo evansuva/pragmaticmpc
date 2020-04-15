@@ -20,7 +20,7 @@ research and aim to give readers insights into what problems are
 practically solvable using MPC today and how different threat models
 and assumptions impact the practicality of different approaches.
 
-[**Full Text (PDF)**](/docs/pragmaticmpc.pdf) (Last update: 2 October 2019; [Errata](/docs/errata.pdf))
+[**Full Text (PDF)**](/docs/pragmaticmpc.pdf) (Last update: 14 April 2020; [Errata](/docs/errata.pdf))
 
 NOW Publishers, December 2018: [Publishers Page](https://www.nowpublishers.com/article/Details/SEC-019)
 
@@ -87,3 +87,25 @@ NOW Publishers, December 2018: [Publishers Page](https://www.nowpublishers.com/a
 <div class="toc_chap">8 Conclusion <span class="pdf">[<a href="/docs/ch8-conclusion.pdf">PDF</a>]</span></div>
 
 <div class="toc_chap">References <span class="pdf">[<a href="/docs/references.pdf">PDF</a>]</span></div>
+
+## Adoptions
+
+We are aware of parts of this book being used in the following courses:
+
+
+Boston University CS 791/JD 673 / UC Berkeley CS 294, [Law for Algorithms](https://docs.google.com/document/d/e/2PACX-1vTuiFeRgaCFiHS04PmPFNgh4BOSlW1_SBhNEtaxL5DSHzmFxNsWD0-_yffhnZn5y65QiUqnKuMOJZ4u/pub)  
+Ran Canetti (BU CS), Stacey Dogan (BU Law), Aloni Cohen (BU CS & Law), Shafi Goldwasser (UC Berkeley CS), Frank Partnoy (UC Berkeley Law)
+
+Brown CS 2950, [Topics in Applied Cryptography: Crypto for Social Good](http://cs.brown.edu/~seny/2950v/)  
+Seny Kamara
+
+George Washington University GWU CSIC 3907-83/6907-81, [Advanced Cryptography](https://www2.seas.gwu.edu/~arkady/teaching/advanced_crypto/s20/)  
+Arkady Yerukhimovich
+
+Stanford  CS 355, [Topics in Cryptography](https://crypto.stanford.edu/cs355/20sp/schedule/)  
+Saba Eskandarian, Dima Kogan, and Florian Tramèr
+
+##
+#
+
+If you know of other courses using the book, please [let me know](mailto:evans@virginia.edu).
