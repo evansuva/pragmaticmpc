@@ -75,7 +75,12 @@ h1 {
     margin: 3em auto;
 }
 .content {
-    padding: 2em 1em 0;
+    font-size: 1.3rem;
+    padding: 2em 1em 10em;
+}
+
+h1 {
+    font-size: 3em;
 }
 
 /* Sidebar */
@@ -83,7 +88,7 @@ h1.brand-title {
 	font-family: 'Libre Baskerville', serif;
 	font-weight: 400;
 	padding-top: 1rem;
-	font-size: 3rem;
+	font-size: 5rem;
 	margin-bottom: 0.25rem;
 }
 

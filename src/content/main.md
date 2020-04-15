@@ -26,6 +26,9 @@ NOW Publishers, December 2018: [Publishers Page](https://www.nowpublishers.com/a
 
 ## Contents
 
+<div class="row">
+    <div class="column small-10 medium-5">
+
 <div class="toc_chap">1 Introduction <span class="pdf">[<a href="/docs/ch1-introduction.pdf">PDF</a>]</span></div>
 <div class="toc_sec">1.1 Outsourced Computation</div>
 <div class="toc_sec">1.2 Multi-Party Computation</div> 
@@ -57,6 +60,9 @@ NOW Publishers, December 2018: [Publishers Page](https://www.nowpublishers.com/a
 <div class="toc_sec">4.4 Programming Tools</div>
 <div class="toc_sec">4.5 Further Reading</div>
 
+</div>
+<div class="column small-10 medium-5">
+
 <div class="toc_chap">5 Oblivious Data Structures <span class="pdf">[<a href="/docs/ch5-obliviousdata.pdf">PDF</a>]</span></div>
 <div class="toc_sec">5.1 Tailored Oblivious Data Structures</div>
 <div class="toc_sec">5.2 RAM-Based MPC</div>
@@ -87,6 +93,8 @@ NOW Publishers, December 2018: [Publishers Page](https://www.nowpublishers.com/a
 <div class="toc_chap">8 Conclusion <span class="pdf">[<a href="/docs/ch8-conclusion.pdf">PDF</a>]</span></div>
 
 <div class="toc_chap">References <span class="pdf">[<a href="/docs/references.pdf">PDF</a>]</span></div>
+</div>
+</div>
 
 ## Adoptions
 
