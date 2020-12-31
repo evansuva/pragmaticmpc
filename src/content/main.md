@@ -113,7 +113,13 @@ Arkady Yerukhimovich
 Stanford  CS 355, [Topics in Cryptography](https://crypto.stanford.edu/cs355/20sp/schedule/)  
 Saba Eskandarian, Dima Kogan, and Florian Tramèr
 
-University of Missouri CMP_SC 8001, [Wei Jiang](http://faculty.missouri.edu/wjiang/)
+University of Missouri CMP_SC 8001 &mdash; [Wei Jiang](http://faculty.missouri.edu/wjiang/) has shared slides he developed for his course following the book:
+
+- [1. Introduction](/docs/jiang-slides/1-intro.pdf)
+- [2. Defining SMC](/docs/jiang-slides/2-defining-smc.pdf)
+- [3-1. Fundamental MPC Protocols](/docs/jiang-slides/3-1-fundamental-mpc.pdf)
+- [3-2. Fundamental MPC Protocols](/docs/jiang-slides/3-2-fundamental-mpc.pdf)
+- [3-3. Fundamental MPC Protocols](/docs/jiang-slides/3-3-fundamental-mpc.pdf)
 
 ##
 #
