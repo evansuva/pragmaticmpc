@@ -24,6 +24,13 @@ and assumptions impact the practicality of different approaches.
 
 NOW Publishers, December 2018: [Publishers Page](https://www.nowpublishers.com/article/Details/SEC-019)
 
+For a quick introduction to MPC, read Yehuda Lindell's article: [_Secure Multiparty Computation_](https://dl.acm.org/doi/pdf/10.1145/3387108) (Communications of the ACM, January 2021). There's even a movie:
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Li2QJ8yImoY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
+
 ## Contents
 
 <div class="row">
