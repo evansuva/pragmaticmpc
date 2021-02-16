@@ -120,6 +120,9 @@ Arkady Yerukhimovich
 Stanford  CS 355, [Topics in Cryptography](https://crypto.stanford.edu/cs355/20sp/schedule/)  
 Saba Eskandarian, Dima Kogan, and Florian Tramèr
 
+University of Maryland, [CMSC 858T &mdash Introduction to Secure Distributed Computation](http://www.cs.umd.edu/~jkatz/gradcrypto2/s21/)
+Jonathan Katz
+
 University of Missouri CMP_SC 8001 &mdash; [Wei Jiang](http://faculty.missouri.edu/wjiang/) has shared slides he developed for his course following the book:
 
 - [1. Introduction](/docs/jiang-slides/1-intro.pdf)
