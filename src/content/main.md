@@ -26,13 +26,11 @@ NOW Publishers, December 2018: [Publishers Page](https://www.nowpublishers.com/a
 
 ## News
 
+<a href="https://item.jd.com/13302742.html">
+<img src="/images/chinese-cover.png" width=30% align="right"></a>
+
 **June 2021:** A Chinese translation of the book is now available from China Machine
 Press!
-
-<center>
-<img src="/images/chinese-cover.png" width=60%><br>
-<a href="https://item.jd.com/13302742.html">JD.com book link</a>
-</center>
 
 Thanks to Weiran Liu and Sengchao Ding for all the work they
 did on the translation (which also substantially improve the English
@@ -40,6 +38,7 @@ version with all the [mistakes they
 found](http://securecomputation.org/docs/errata.pdf) in their careful
 translation work).
 
+To order: [JD.com book link](https://item.jd.com/13302742.html)
 
 **January 2021:** For a quick introduction to MPC, read Yehuda Lindell's article: [_Secure Multiparty Computation_](https://dl.acm.org/doi/pdf/10.1145/3387108) (Communications of the ACM, January 2021). There's even a movie:
 
