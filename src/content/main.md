@@ -140,10 +140,10 @@ University of Bern and Swiss Joint Master in Computer Science,
 [Cryptographic Protocols](https://mcs.unibnf.ch/courses/cryptographic-protocols/)/[Cryptographic Protocols](https://crypto.unibe.ch/courses/)  
 Christian Cachin
   
-University of Maryland, [CMSC 858T &mdash; Introduction to Secure Distributed Computation](http://www.cs.umd.edu/~jkatz/gradcrypto2/s21/)
+University of Maryland, [CMSC 858T &mdash; Introduction to Secure Distributed Computation](http://www.cs.umd.edu/~jkatz/gradcrypto2/s21/)  
 Jonathan Katz
 
-University of Missouri CMP_SC 8001 &mdash; [Wei Jiang](http://faculty.missouri.edu/wjiang/) has shared slides he developed for his course following the book:
+University of Missouri, CMP_SC 8001 &mdash; [Wei Jiang](http://faculty.missouri.edu/wjiang/) has shared slides he developed for his course following the book:
 
 - [1. Introduction](/docs/jiang-slides/1-intro.pdf)
 - [2. Defining SMC](/docs/jiang-slides/2-defining-smc.pdf)
