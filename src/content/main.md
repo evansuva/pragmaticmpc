@@ -137,7 +137,7 @@ Stanford  CS 355, [Topics in Cryptography](https://crypto.stanford.edu/cs355/20s
 Saba Eskandarian, Dima Kogan, and Florian Tramèr
 
 University of Bern and Swiss Joint Master in Computer Science, 
-[Cryptographic Protocols](https://mcs.unibnf.ch/courses/cryptographic-protocols/) and [Cryptographic Protocols](https://crypto.unibe.ch/courses/)
+[Cryptographic Protocols](https://mcs.unibnf.ch/courses/cryptographic-protocols/) and [Cryptographic Protocols](https://crypto.unibe.ch/courses/)  
 Christian Cachin
   
 University of Maryland, [CMSC 858T &mdash Introduction to Secure Distributed Computation](http://www.cs.umd.edu/~jkatz/gradcrypto2/s21/)
