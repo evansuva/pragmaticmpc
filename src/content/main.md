@@ -34,9 +34,6 @@ MPC. It’s also a short read, so if you’re not interested in MPC, you
 should still give it a look, and you might change that.  </em>
 </blockquote>
 
-https://cronokirby.com/posts/2022/05/some-cryptography-books-i-like/
-
-
 <a href="https://item.jd.com/13302742.html">
 <img src="/images/chinese-cover.png" width=30% align="right"></a>
 
