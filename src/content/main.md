@@ -26,6 +26,17 @@ NOW Publishers, December 2018: [Publishers Page](https://www.nowpublishers.com/a
 
 ## News
 
+**May 2022:** Lúcás Meier includes Pragmatic MPC in his list of [_Some Cryptography Books I Like_](https://cronokirby.com/posts/2022/05/some-cryptography-books-i-like/):
+
+<blockquote><em> I read this one quite recently, and I’d highly
+recommend it. ... I highly recommend this book if you’re interested in
+MPC. It’s also a short read, so if you’re not interested in MPC, you
+should still give it a look, and you might change that.  </em>
+</blockquote>
+
+https://cronokirby.com/posts/2022/05/some-cryptography-books-i-like/
+
+
 <a href="https://item.jd.com/13302742.html">
 <img src="/images/chinese-cover.png" width=30% align="right"></a>
 
