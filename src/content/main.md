@@ -159,7 +159,7 @@ University of Missouri, CMP_SC 8001 &mdash; [Wei Jiang](http://faculty.missouri.
 - [3-2. Fundamental MPC Protocols](/docs/jiang-slides/3-2-fundamental-mpc.pdf)
 - [3-3. Fundamental MPC Protocols](/docs/jiang-slides/3-3-fundamental-mpc.pdf)
 
-University of Vermont, [UVM CS 295/395: Secure Distributed Computation](https://jnear.github.io/cs295-secure-computation/)
+University of Vermont, [UVM CS 295/395: Secure Distributed Computation](https://jnear.github.io/cs295-secure-computation/)  
 Joe Near
 
 ##
