@@ -132,6 +132,8 @@ To order: [JD.com book link](https://item.jd.com/13302742.html)
 We are aware of parts of this book being used in the following courses:
 
 
+Jonas Spenger has notes from an MPC study group that follows some parts of the book including [Yao's Garbled Circuits](https://jonasspenger.github.io/blog/yaos-garbled-circuits), [BGW Protocol and Beaver Triples](https://jonasspenger.github.io/blog/bgw-protocol-and-beaver-triples), [Malicious BGW and SPDZ](https://jonasspenger.github.io/blog/spdz-malicious-bgw-mpc-protocol), [GMW Protocol](https://jonasspenger.github.io/blog/gmw-protocol), [Oblivious Transfer Extension](https://jonasspenger.github.io/blog/oblivious-transfer-extension), and more. 
+
 Boston University CS 791/JD 673 / UC Berkeley CS 294, [Law for Algorithms](https://docs.google.com/document/d/e/2PACX-1vTuiFeRgaCFiHS04PmPFNgh4BOSlW1_SBhNEtaxL5DSHzmFxNsWD0-_yffhnZn5y65QiUqnKuMOJZ4u/pub)  
 Ran Canetti (BU CS), Stacey Dogan (BU Law), Aloni Cohen (BU CS & Law), Shafi Goldwasser (UC Berkeley CS), Frank Partnoy (UC Berkeley Law)
 

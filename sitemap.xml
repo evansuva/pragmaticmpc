@@ -1,32 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://securecomputation.org/post/</loc>
     <lastmod>2018-04-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://securecomputation.org/</loc>
     <lastmod>2018-04-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://securecomputation.org/welcome/</loc>
     <lastmod>2018-04-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://securecomputation.org/main/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://securecomputation.org/tags/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://securecomputation.org/topics/</loc>
   </url>
-  
 </urlset>
