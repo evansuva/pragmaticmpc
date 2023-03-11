@@ -7,6 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>evans@virginia.edu (David Evans, Vladimir Kolesnikov and Mike Rosulek)</managingEditor>
-    <webMaster>evans@virginia.edu (David Evans, Vladimir Kolesnikov and Mike Rosulek)</webMaster><atom:link href="https://securecomputation.org/topics/index.xml" rel="self" type="application/rss+xml" />
+    <webMaster>evans@virginia.edu (David Evans, Vladimir Kolesnikov and Mike Rosulek)</webMaster>
+    
+	<atom:link href="https://securecomputation.org/topics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
   </channel>
 </rss>
