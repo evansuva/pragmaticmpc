@@ -140,13 +140,13 @@ Ran Canetti (BU CS), Stacey Dogan (BU Law), Aloni Cohen (BU CS & Law), Shafi Gol
 Brown CS 2950, [Topics in Applied Cryptography: Crypto for Social Good](http://cs.brown.edu/~seny/2950v/)  
 Seny Kamara
 
-EURECOM Spohis Antipolis, [Multiparty Computation and Blockchains](https://www.eurecom.fr/en/course/mpc-2022fall)
+EURECOM Spohis Antipolis, [Multiparty Computation and Blockchains](https://www.eurecom.fr/en/course/mpc-2022fall) (Fall 2022)
 Antonio Faonio
 
 George Washington University GWU CSIC 3907-83/6907-81, [Advanced Cryptography](https://www2.seas.gwu.edu/~arkady/teaching/advanced_crypto/s20/)  
 Arkady Yerukhimovich
 
-IT University of Copenhagen, [Cryptographic Computation and Blockchain](https://learnit.itu.dk/local/coursebase/view.php?ciid=1138)
+IT University of Copenhagen, [Cryptographic Computation and Blockchain](https://learnit.itu.dk/local/coursebase/view.php?ciid=1138) (Spring 2023)
 Bernardo Machado David
 
 Stanford  CS 355, [Topics in Cryptography](https://crypto.stanford.edu/cs355/20sp/schedule/)  
